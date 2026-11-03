@@ -27,10 +27,11 @@ async def main():
     peers.guest=new Rooms(api('guest'),m=>notices.push(m),m=>peers.guest.accept(m),()=>{});
     await peers.host.invite('guest',25565);
     const until=Date.now()+15000;while(!counts.servers&&Date.now()<until)await new Promise(r=>setTimeout(r,50));
-    peers.host.close();peers.guest.close();return{counts,notices};
+    const stats=await peers.guest.pc.getStats();const transport=[...stats.values()].find(s=>s.type==='transport'&&s.selectedCandidatePairId);const pair=transport&&stats.get(transport.selectedCandidatePairId);const candidate=pair&&stats.get(pair.localCandidateId);const candidateType=candidate?.candidateType;peers.host.close();peers.guest.close();return{counts,notices,candidateType};
   }""")
   assert result['counts']=={'finish':1,'listen':1,'servers':1,'bytes':24013,'joined':1},result
-  print('PASS: two real WebRTC peers → offer/answer + ICE → 24013 mod bytes → one installed pack + server entry + automatic game join')
+  if private_ice:assert result['candidateType']=='relay',result
+  print('PASS: '+('forced external TURN relay; ' if private_ice else '')+'two real WebRTC peers → offer/answer + ICE → 24013 mod bytes → one installed pack + server entry + automatic game join')
   await browser.close()
 try: asyncio.run(main())
 finally:server.shutdown()
