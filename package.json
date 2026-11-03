@@ -1,9 +1,9 @@
 {
   "name": "villageplus-launcher",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "description": "VillagePlus desktop launcher",
-  "main": "electron/main.cjs",
+  "main": "electron/bootstrap.cjs",
   "scripts": {
     "start": "electron .",
     "test": "node --test test/*.test.cjs",
