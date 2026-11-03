@@ -1,0 +1,506 @@
+[
+  {
+    "id": 0,
+    "name": "Cape 2",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_0.json",
+    "texture": "assets/cosmetics/cosmetic_0.png"
+  },
+  {
+    "id": 1,
+    "name": "Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_1.json",
+    "texture": "assets/cosmetics/cosmetic_1.png"
+  },
+  {
+    "id": 2,
+    "name": "Dark Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_2.json",
+    "texture": "assets/cosmetics/cosmetic_2.png"
+  },
+  {
+    "id": 3,
+    "name": "akvi4 Cape 2",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_3.json",
+    "texture": "assets/cosmetics/cosmetic_3.png"
+  },
+  {
+    "id": 4,
+    "name": "bro9i Cape 3",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_4.json",
+    "texture": "assets/cosmetics/cosmetic_4.png"
+  },
+  {
+    "id": 5,
+    "name": "bro9i Cape 2",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_5.json",
+    "texture": "assets/cosmetics/cosmetic_5.png"
+  },
+  {
+    "id": 6,
+    "name": "fluger Fluger2 Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_6.json",
+    "texture": "assets/cosmetics/cosmetic_6.png"
+  },
+  {
+    "id": 7,
+    "name": "fluger Fluger3 Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_7.json",
+    "texture": "assets/cosmetics/cosmetic_7.png"
+  },
+  {
+    "id": 8,
+    "name": "fluger Fluger5 Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_8.json",
+    "texture": "assets/cosmetics/cosmetic_8.png"
+  },
+  {
+    "id": 9,
+    "name": "bro9i Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_9.json",
+    "texture": "assets/cosmetics/cosmetic_9.png"
+  },
+  {
+    "id": 10,
+    "name": "akvi4 Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_10.json",
+    "texture": "assets/cosmetics/cosmetic_10.png"
+  },
+  {
+    "id": 11,
+    "name": "Diamond sword Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_11.json",
+    "texture": "assets/cosmetics/cosmetic_11.png"
+  },
+  {
+    "id": 12,
+    "name": "Glitch Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_12.json",
+    "texture": "assets/cosmetics/cosmetic_12.png"
+  },
+  {
+    "id": 13,
+    "name": "Sweatgod Cape",
+    "type": "cape",
+    "pos": null,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_13.json",
+    "texture": "assets/cosmetics/cosmetic_13.png"
+  },
+  {
+    "id": 14,
+    "name": "Wings",
+    "type": "wings",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_14.json",
+    "texture": "assets/cosmetics/cosmetic_14.png"
+  },
+  {
+    "id": 15,
+    "name": "Dark Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_15.json",
+    "texture": "assets/cosmetics/cosmetic_15.png"
+  },
+  {
+    "id": 16,
+    "name": "Ghoul Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_16.json",
+    "texture": "assets/cosmetics/cosmetic_16.png"
+  },
+  {
+    "id": 17,
+    "name": "Rocker Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_17.json",
+    "texture": "assets/cosmetics/cosmetic_17.png"
+  },
+  {
+    "id": 18,
+    "name": "wota Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_18.json",
+    "texture": "assets/cosmetics/cosmetic_18.png"
+  },
+  {
+    "id": 19,
+    "name": "fluger Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_19.json",
+    "texture": "assets/cosmetics/cosmetic_19.png"
+  },
+  {
+    "id": 20,
+    "name": "bro9i Trident Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_20.json",
+    "texture": "assets/cosmetics/cosmetic_20.png"
+  },
+  {
+    "id": 21,
+    "name": "Easter Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_21.json",
+    "texture": "assets/cosmetics/cosmetic_21.png"
+  },
+  {
+    "id": 22,
+    "name": "Angel Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_22.json",
+    "texture": "assets/cosmetics/cosmetic_22.png"
+  },
+  {
+    "id": 23,
+    "name": "Baby Dragon Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_23.json",
+    "texture": "assets/cosmetics/cosmetic_23.png"
+  },
+  {
+    "id": 24,
+    "name": "Dragon Wings Blue",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_24.json",
+    "texture": "assets/cosmetics/cosmetic_24.png"
+  },
+  {
+    "id": 25,
+    "name": "Spider Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_25.json",
+    "texture": "assets/cosmetics/cosmetic_25.png"
+  },
+  {
+    "id": 26,
+    "name": "Vulcano Wings",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_26.json",
+    "texture": "assets/cosmetics/cosmetic_26.png"
+  },
+  {
+    "id": 27,
+    "name": "Katana Back",
+    "type": "bodywear",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_27.json",
+    "texture": "assets/cosmetics/cosmetic_27.png"
+  },
+  {
+    "id": 28,
+    "name": "Frog Backpack",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_28.json",
+    "texture": "assets/cosmetics/cosmetic_28.png"
+  },
+  {
+    "id": 29,
+    "name": "Backpack 5",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_29.json",
+    "texture": "assets/cosmetics/cosmetic_29.png"
+  },
+  {
+    "id": 30,
+    "name": "Backpack 6",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_30.json",
+    "texture": "assets/cosmetics/cosmetic_30.png"
+  },
+  {
+    "id": 31,
+    "name": "Backpack 7",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_31.json",
+    "texture": "assets/cosmetics/cosmetic_31.png"
+  },
+  {
+    "id": 32,
+    "name": "Backpack 8",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_32.json",
+    "texture": "assets/cosmetics/cosmetic_32.png"
+  },
+  {
+    "id": 33,
+    "name": "Backpack 4",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_33.json",
+    "texture": "assets/cosmetics/cosmetic_33.png"
+  },
+  {
+    "id": 34,
+    "name": "Backpack 9",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_34.json",
+    "texture": "assets/cosmetics/cosmetic_34.png"
+  },
+  {
+    "id": 35,
+    "name": "Backpack 3",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_35.json",
+    "texture": "assets/cosmetics/cosmetic_35.png"
+  },
+  {
+    "id": 36,
+    "name": "Backpack 2",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_36.json",
+    "texture": "assets/cosmetics/cosmetic_36.png"
+  },
+  {
+    "id": 37,
+    "name": "Backpack 1",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_37.json",
+    "texture": "assets/cosmetics/cosmetic_37.png"
+  },
+  {
+    "id": 38,
+    "name": "Pet 4",
+    "type": "pet",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_38.json",
+    "texture": "assets/cosmetics/cosmetic_38.png"
+  },
+  {
+    "id": 39,
+    "name": "Pet 3",
+    "type": "pet",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_39.json",
+    "texture": "assets/cosmetics/cosmetic_39.png"
+  },
+  {
+    "id": 40,
+    "name": "Pet 2",
+    "type": "pet",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_40.json",
+    "texture": "assets/cosmetics/cosmetic_40.png"
+  },
+  {
+    "id": 41,
+    "name": "Pet 1",
+    "type": "pet",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_41.json",
+    "texture": "assets/cosmetics/cosmetic_41.png"
+  },
+  {
+    "id": 42,
+    "name": "Cake Pet",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_42.json",
+    "texture": "assets/cosmetics/cosmetic_42.png"
+  },
+  {
+    "id": 43,
+    "name": "Bee",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_43.json",
+    "texture": "assets/cosmetics/cosmetic_43.png"
+  },
+  {
+    "id": 44,
+    "name": "akvi4 Pet 2",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_44.json",
+    "texture": "assets/cosmetics/cosmetic_44.png"
+  },
+  {
+    "id": 45,
+    "name": "fluger Pet",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_45.json",
+    "texture": "assets/cosmetics/cosmetic_45.png"
+  },
+  {
+    "id": 46,
+    "name": "bro9i Diamond Pet",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_46.json",
+    "texture": "assets/cosmetics/cosmetic_46.png"
+  },
+  {
+    "id": 47,
+    "name": "Radish Pet",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_47.json",
+    "texture": "assets/cosmetics/cosmetic_47.png"
+  },
+  {
+    "id": 48,
+    "name": "Demon Pet",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_48.json",
+    "texture": "assets/cosmetics/cosmetic_48.png"
+  },
+  {
+    "id": 49,
+    "name": "Angel Pet",
+    "type": "",
+    "pos": 1,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_49.json",
+    "texture": "assets/cosmetics/cosmetic_49.png"
+  },
+  {
+    "id": 50,
+    "name": "Dark Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_50.json",
+    "texture": "assets/cosmetics/cosmetic_50.png"
+  },
+  {
+    "id": 51,
+    "name": "Nimb",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_51.json",
+    "texture": "assets/cosmetics/cosmetic_51.png"
+  },
+  {
+    "id": 52,
+    "name": "Leaf Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_52.json",
+    "texture": "assets/cosmetics/cosmetic_52.png"
+  },
+  {
+    "id": 53,
+    "name": "Frog Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_53.json",
+    "texture": "assets/cosmetics/cosmetic_53.png"
+  },
+  {
+    "id": 54,
+    "name": "bro9i Hat Mask",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_54.json",
+    "texture": "assets/cosmetics/cosmetic_54.png"
+  },
+  {
+    "id": 55,
+    "name": "akvi4 Penguin Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_55.json",
+    "texture": "assets/cosmetics/cosmetic_55.png"
+  },
+  {
+    "id": 56,
+    "name": "fluger Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_56.json",
+    "texture": "assets/cosmetics/cosmetic_56.png"
+  },
+  {
+    "id": 57,
+    "name": "Bear Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_57.json",
+    "texture": "assets/cosmetics/cosmetic_57.png"
+  },
+  {
+    "id": 58,
+    "name": "Armadillo Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_58.json",
+    "texture": "assets/cosmetics/cosmetic_58.png"
+  },
+  {
+    "id": 59,
+    "name": "Camel Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_59.json",
+    "texture": "assets/cosmetics/cosmetic_59.png"
+  },
+  {
+    "id": 60,
+    "name": "Chicken Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_60.json",
+    "texture": "assets/cosmetics/cosmetic_60.png"
+  },
+  {
+    "id": 61,
+    "name": "Frog Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_61.json",
+    "texture": "assets/cosmetics/cosmetic_61.png"
+  },
+  {
+    "id": 62,
+    "name": "Sheep Hat",
+    "type": "",
+    "pos": 2,
+    "model": "cosmetics-source/src/main/resources/assets/pulse/cosmetics/models/cosmetic_62.json",
+    "texture": "assets/cosmetics/cosmetic_62.png"
+  }
+]

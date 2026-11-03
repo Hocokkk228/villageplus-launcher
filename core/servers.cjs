@@ -1,0 +1,5 @@
+const fs=require('node:fs/promises'),path=require('node:path');
+function str(s){const b=Buffer.from(s);if(b.length>65535)throw Error('Строка слишком длинная');const h=Buffer.alloc(2);h.writeUInt16BE(b.length);return Buffer.concat([h,b]);}
+function compound(fields){return Buffer.concat([...fields,Buffer.from([0])]);}function tag(type,name,value){return Buffer.concat([Buffer.from([type]),str(name),value]);}
+async function addServer(instance,name,address){const file=path.join(instance,'servers.dat');const server=compound([tag(8,'name',str(name)),tag(8,'ip',str(address)),tag(1,'acceptTextures',Buffer.from([0]))]);const count=Buffer.alloc(4);count.writeInt32BE(1);const data=tag(10,'',compound([tag(9,'servers',Buffer.concat([Buffer.from([10]),count,server]))]));await fs.mkdir(instance,{recursive:true});try{await fs.copyFile(file,file+'.before-room')}catch(e){if(e.code!=='ENOENT')throw e;}await fs.writeFile(file+'.tmp',data);await fs.rename(file+'.tmp',file);return true;}
+module.exports={addServer};

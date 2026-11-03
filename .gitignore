@@ -1,0 +1,6 @@
+node_modules/
+release/
+bundle/mods/*.jar
+.env*
+*.enc
+*.log
