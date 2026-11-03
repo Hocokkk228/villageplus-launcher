@@ -5,6 +5,7 @@ function allowed(rules=[],p=process.platform){if(!rules.length)return true;let r
 function argumentsFor(items,vars,p=process.platform){return items.flatMap(v=>typeof v==='string'?[v]:allowed(v.rules,p)?[].concat(v.value||[]):[]).map(v=>v.replace(/\$\{([^}]+)\}/g,(_,k)=>vars[k]??''));}
 function artifactPath(lib){if(lib.downloads?.artifact?.path)return lib.downloads.artifact.path;const [g,a,v,classifier]=lib.name.split(':');return `${g.replaceAll('.','/')}/${a}/${v}/${a}-${v}${classifier?'-'+classifier:''}.jar`;}
 async function exists(p){try{await fs.access(p);return true}catch{return false}}
+function quickJoinArgs(server){if(!server)return[];if(!/^127\.0\.0\.1:(\d{4,5})$/.test(server)||Number(server.split(':')[1])<1024||Number(server.split(':')[1])>65535)throw Error('Неверный адрес комнаты');return['--quickPlayMultiplayer',server];}
 class Game{
  constructor(root,bundle,onEvent){this.root=root;this.bundle=bundle;this.event=onEvent;this.child=null;}
  async discover(extra=''){
@@ -25,19 +26,19 @@ class Game{
   return{...installed,instance,mods};
  }
  async updateCosmetics(settings){if(!this.instance||!this.child)return;const file=path.join(this.instance,'config/villageplus-cosmetics.json');await fs.writeFile(file+'.tmp',JSON.stringify({enabled:!!settings.cosmeticsEnabled,selection:settings.selection||{}}));await fs.rename(file+'.tmp',file);}
- async launch(settings,account={}){if(this.child)throw Error('Игра уже запущена из лаунчера.');if(!/^[A-Za-z0-9_]{3,16}$/.test(account.name||settings.nickname))throw Error('Ник: от 3 до 16 латинских букв, цифр или _.');this.event('game-status',{state:'preparing',message:'Проверяем сборку…'});
+ async launch(settings,account={},options={}){if(this.child)throw Error('Игра уже запущена из лаунчера.');if(!/^[A-Za-z0-9_]{3,16}$/.test(account.name||settings.nickname))throw Error('Ник: от 3 до 16 латинских букв, цифр или _.');this.event('game-status',{state:'preparing',message:'Проверяем сборку…'});
   const pack=await this.prepare(settings),{data,root,instance}=pack;const nativeDir=path.join(instance,'natives',platformName());await fs.mkdir(nativeDir,{recursive:true});const libs=[];
   for(const lib of data.libraries||[]){if(!allowed(lib.rules))continue;const artifact=artifactPath(lib),file=path.join(root,'libraries',artifact);if(!await exists(file))throw Error('Не хватает библиотеки '+lib.name+'. Сначала установи эту версию Minecraft.');libs.push(file);
    if(/natives-(linux|windows|macos)/.test(artifact)&&!await exists(path.join(nativeDir,path.basename(file)+'.ready'))){const Zip=require('adm-zip');const zip=new Zip(file);for(const entry of zip.getEntries())if(!entry.isDirectory&&/\.(so|dll|dylib|jnilib)$/.test(entry.entryName))await fs.writeFile(path.join(nativeDir,path.basename(entry.entryName)),entry.getData());await fs.writeFile(path.join(nativeDir,path.basename(file)+'.ready'),'');}}
   const jar=path.join(root,'versions',data.jar||pack.id,(data.jar||pack.id)+'.jar');if(!await exists(jar))throw Error('Не найден клиент Minecraft '+jar);libs.push(jar);
-  const nick=account.name||settings.nickname;const vars={natives_directory:nativeDir,launcher_name:'VillagePlus',launcher_version:'0.1.0',classpath:libs.join(path.delimiter),classpath_separator:path.delimiter,library_directory:path.join(root,'libraries'),auth_player_name:nick,auth_uuid:account.uuid||uuid(nick),auth_access_token:account.token||'0',auth_xuid:'',clientid:'villageplus',version_name:pack.id,version_type:'release',game_directory:instance,assets_root:path.join(root,'assets'),assets_index_name:data.assetIndex?.id||data.assets,user_type:'mojang',resolution_width:'1280',resolution_height:'800'};
+  const nick=account.name||settings.nickname;const vars={natives_directory:nativeDir,launcher_name:'VillagePlus',launcher_version:require('../package.json').version,classpath:libs.join(path.delimiter),classpath_separator:path.delimiter,library_directory:path.join(root,'libraries'),auth_player_name:nick,auth_uuid:account.uuid||uuid(nick),auth_access_token:account.token||'0',auth_xuid:'',clientid:'villageplus',version_name:pack.id,version_type:'release',game_directory:instance,assets_root:path.join(root,'assets'),assets_index_name:data.assetIndex?.id||data.assets,user_type:'mojang',resolution_width:'1280',resolution_height:'800'};
   let args=argumentsFor(data.arguments?.jvm||['-Djava.library.path=${natives_directory}','-cp','${classpath}'],vars);args=args.filter(v=>!v.startsWith('-Xmx')&&!v.startsWith('-Xms'));args.push('-Xmx'+Math.max(2,Math.min(16,Number(settings.ram)||6))+'G','-Xms1G');
   if(account.provider==='ely'){const agent=path.join(this.root,'authlib-injector.jar');if(!await exists(agent))await require('./install.cjs').authlib(this.root);args.push('-javaagent:'+agent+'=ely.by');}
-  args.push(data.mainClass,...argumentsFor(data.arguments?.game||[],vars));
+  args.push(data.mainClass,...argumentsFor(data.arguments?.game||[],vars),...quickJoinArgs(options.server));
   const java=await require('./install.cjs').java21(this.root,settings.javaPath,this.event);
   this.instance=instance;const log=await fs.open(path.join(instance,'launcher-game.log'),'a');const child=spawn(java,args,{cwd:instance,stdio:['ignore','pipe','pipe'],windowsHide:true});this.child=child;
   const capture=chunk=>{const clean=String(chunk).replaceAll(account.token||'__NO_TOKEN__','[token]');log.write(clean);const match=clean.match(/(?:Local game hosted on port|локальн[^\n]*порт)[:\s]+(\d+)/i);if(match)this.event('lan-detected',{port:Number(match[1])});};child.stdout.on('data',capture);child.stderr.on('data',capture);
   child.once('spawn',()=>this.event('game-status',{state:'running',message:'Хорошей игры!'}));child.once('error',e=>{this.child=null;log.close();this.event('game-status',{state:'error',message:'Не удалось запустить Java: '+e.message});});child.once('exit',code=>{this.child=null;log.close();this.event('game-status',{state:'idle',message:code?'Игра завершилась с ошибкой. Журнал доступен в настройках.':'Можно возвращаться в приключение.'});});return{instance,mode:settings.aio?'aio':'standard'};
  }
 }
-module.exports={Game,uuid,allowed,argumentsFor,artifactPath};
+module.exports={Game,uuid,allowed,argumentsFor,artifactPath,quickJoinArgs};
