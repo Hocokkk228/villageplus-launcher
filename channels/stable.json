@@ -1,37 +1,37 @@
 {
   "schema": 1,
-  "version": "0.50.6",
+  "version": "0.50.7",
   "minecraft": "1.21.11",
   "files": [
     {
       "name": "all-in-one-opt-1.1.0.jar",
       "size": 14679031,
       "sha256": "e05ccd47439a8cbb8d21c354bb32397517dd3f5935dcfea7a826e0efd341fbe9",
-      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.6/all-in-one-opt-1.1.0.jar"
+      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.7/all-in-one-opt-1.1.0.jar"
     },
     {
       "name": "fabric-api-0.141.6+1.21.11.jar",
       "size": 2426039,
       "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f",
-      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.6/fabric-api-0.141.6+1.21.11.jar"
+      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.7/fabric-api-0.141.6+1.21.11.jar"
     },
     {
-      "name": "halloween-furniture-0.50.6.jar",
-      "size": 7112456,
-      "sha256": "db650ebddee363eae448a3eb7518fa394ad3896c54ee54e211dab2b9a5ecb2fd",
-      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.6/halloween-furniture-0.50.6.jar"
+      "name": "halloween-furniture-0.50.7.jar",
+      "size": 7117279,
+      "sha256": "77ec3b1b837f6c51d86e7926fe4e425f8688af73e34e73bc973e8b6e602d176e",
+      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.7/halloween-furniture-0.50.7.jar"
     },
     {
       "name": "iris-fabric-1.10.7+mc1.21.11.jar",
       "size": 2807547,
       "sha256": "58c55da18189c91a49f847d3cee451633a23b575fb69c0c5b65ddb274436cb19",
-      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.6/iris-fabric-1.10.7+mc1.21.11.jar"
+      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.7/iris-fabric-1.10.7+mc1.21.11.jar"
     },
     {
       "name": "sodium-fabric-0.8.7+mc1.21.11.jar",
       "size": 1870358,
       "sha256": "c08fae86b350aaa8a8f37e7347929df38f01cc2348cf31c322615564bdc53983",
-      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.6/sodium-fabric-0.8.7+mc1.21.11.jar"
+      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.7/sodium-fabric-0.8.7+mc1.21.11.jar"
     }
   ]
 }
