@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:pumpkin",
+    "minecraft:white_wool",
+    "minecraft:torch"
+  ],
+  "result": {
+    "id": "halloween:halloween_garland",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:cauldron",
+    "minecraft:slime_ball"
+  ],
+  "result": {
+    "id": "halloween:witch_cauldron",
+    "count": 1
+  }
+}

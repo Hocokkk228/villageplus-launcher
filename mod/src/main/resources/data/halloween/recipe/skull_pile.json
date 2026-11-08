@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "halloween:weathered_skull",
+    "halloween:weathered_skull",
+    "halloween:weathered_skull"
+  ],
+  "result": {
+    "id": "halloween:skull_pile",
+    "count": 1
+  }
+}

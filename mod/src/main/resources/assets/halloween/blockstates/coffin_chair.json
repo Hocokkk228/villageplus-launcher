@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,half=lower": {
+      "model": "halloween:block/coffin_chair",
+      "y": 0
+    },
+    "facing=north,half=upper": {
+      "model": "halloween:block/coffin_chair",
+      "y": 0
+    },
+    "facing=east,half=lower": {
+      "model": "halloween:block/coffin_chair",
+      "y": 90
+    },
+    "facing=east,half=upper": {
+      "model": "halloween:block/coffin_chair",
+      "y": 90
+    },
+    "facing=south,half=lower": {
+      "model": "halloween:block/coffin_chair",
+      "y": 180
+    },
+    "facing=south,half=upper": {
+      "model": "halloween:block/coffin_chair",
+      "y": 180
+    },
+    "facing=west,half=lower": {
+      "model": "halloween:block/coffin_chair",
+      "y": 270
+    },
+    "facing=west,half=upper": {
+      "model": "halloween:block/coffin_chair",
+      "y": 270
+    }
+  }
+}

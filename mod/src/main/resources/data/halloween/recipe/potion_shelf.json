@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:dark_oak_planks",
+    "minecraft:glass_bottle",
+    "minecraft:nether_wart"
+  ],
+  "result": {
+    "id": "halloween:potion_shelf",
+    "count": 1
+  }
+}

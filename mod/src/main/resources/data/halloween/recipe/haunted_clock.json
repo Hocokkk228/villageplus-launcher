@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:dark_oak_planks",
+    "minecraft:clock",
+    "minecraft:pumpkin"
+  ],
+  "result": {
+    "id": "halloween:haunted_clock",
+    "count": 1
+  }
+}

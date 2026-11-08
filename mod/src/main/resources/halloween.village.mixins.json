@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "package": "dev.halloween.mixin.village",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PrisonBedMixin",
+    "VillageTaskBrainMixin",
+    "ExplosionCaptureMixin",
+    "RoyalBedMixin",
+    "FarmlandTrampleMixin",
+    "GuardInfectionMixin",
+    "GuardZombieCure",
+    "PlayerLeashMixin",
+    "GuardWeaponDurabilityMixin",
+    "CourtCrowdMixin",
+    "WorldLocateMixin",
+    "RailPathAvoidanceMixin",
+    "RailCollisionMixin",
+    "RailMovementCollisionMixin",
+    "RailPassengerServerMoveMixin",
+    "VillagerSwingMixin",
+    "FightPoseMixin",
+    "FightPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

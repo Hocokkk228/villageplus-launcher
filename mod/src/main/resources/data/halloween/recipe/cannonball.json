@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "equipment", "pattern": [" I ", "III", " I "], "key": {"I": "minecraft:iron_ingot"}, "result": {"id": "halloween:cannonball", "count": 8}}

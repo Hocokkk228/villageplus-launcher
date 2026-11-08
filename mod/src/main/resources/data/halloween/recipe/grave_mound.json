@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:dirt",
+    "minecraft:bone",
+    "minecraft:bone"
+  ],
+  "result": {
+    "id": "halloween:grave_mound",
+    "count": 1
+  }
+}

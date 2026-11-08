@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:bone",
+    "minecraft:bone",
+    "minecraft:bone",
+    "minecraft:bone",
+    "minecraft:gray_dye"
+  ],
+  "result": {
+    "id": "halloween:weathered_skull",
+    "count": 1
+  }
+}

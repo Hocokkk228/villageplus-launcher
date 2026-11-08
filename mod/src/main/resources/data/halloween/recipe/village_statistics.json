@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["minecraft:book", "minecraft:paper", "minecraft:feather", "minecraft:gold_nugget"],
+  "result": {"id": "halloween:village_statistics", "count": 1}
+}

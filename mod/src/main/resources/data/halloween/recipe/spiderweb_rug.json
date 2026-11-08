@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:black_wool",
+    "minecraft:string",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "halloween:spiderweb_rug",
+    "count": 1
+  }
+}

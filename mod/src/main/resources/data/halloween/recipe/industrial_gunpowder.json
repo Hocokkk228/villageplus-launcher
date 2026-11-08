@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:coal",
+    "minecraft:coal",
+    "minecraft:redstone",
+    "minecraft:flint"
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 4
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "textures": {
+    "hat": "halloween:item/builder_hard_hat",
+    "particle": "halloween:item/builder_hard_hat"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        12,
+        3
+      ],
+      "to": [
+        13,
+        15,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hat"
+        },
+        "south": {
+          "texture": "#hat"
+        },
+        "east": {
+          "texture": "#hat"
+        },
+        "west": {
+          "texture": "#hat"
+        },
+        "up": {
+          "texture": "#hat"
+        },
+        "down": {
+          "texture": "#hat"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        11,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hat"
+        },
+        "south": {
+          "texture": "#hat"
+        },
+        "east": {
+          "texture": "#hat"
+        },
+        "west": {
+          "texture": "#hat"
+        },
+        "up": {
+          "texture": "#hat"
+        },
+        "down": {
+          "texture": "#hat"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        15,
+        4
+      ],
+      "to": [
+        9,
+        16,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#hat"
+        },
+        "south": {
+          "texture": "#hat"
+        },
+        "east": {
+          "texture": "#hat"
+        },
+        "west": {
+          "texture": "#hat"
+        },
+        "up": {
+          "texture": "#hat"
+        },
+        "down": {
+          "texture": "#hat"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

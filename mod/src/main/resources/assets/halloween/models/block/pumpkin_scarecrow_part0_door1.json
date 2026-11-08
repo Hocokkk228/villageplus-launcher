@@ -1,0 +1,379 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "scarecrow_straw": "halloween:block/scarecrow_straw",
+    "velvet_black": "halloween:block/velvet_black",
+    "haunted_wood": "halloween:block/haunted_wood",
+    "particle": "halloween:block/haunted_wood"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        25,
+        155,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "Ground stake",
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            9.435897435897436,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            9.435897435897436,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            9.435897435897436,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            9.435897435897436,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Dangling trouser leg",
+      "from": [
+        4,
+        9,
+        6
+      ],
+      "to": [
+        7,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            3.5555555555555554,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_black"
+        },
+        "south": {
+          "uv": [
+            0,
+            3.5555555555555554,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_black"
+        },
+        "west": {
+          "uv": [
+            0,
+            3.5555555555555554,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_black"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.5555555555555554,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_black"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#velvet_black"
+        }
+      }
+    },
+    {
+      "name": "Straw trouser hem",
+      "from": [
+        4,
+        7,
+        6.3
+      ],
+      "to": [
+        7,
+        9,
+        9.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#scarecrow_straw"
+        }
+      }
+    },
+    {
+      "name": "Dangling trouser leg",
+      "from": [
+        9,
+        9,
+        6
+      ],
+      "to": [
+        12,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            3.5555555555555554,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_black"
+        },
+        "south": {
+          "uv": [
+            0,
+            3.5555555555555554,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_black"
+        },
+        "west": {
+          "uv": [
+            0,
+            3.5555555555555554,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_black"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.5555555555555554,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_black"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#velvet_black"
+        }
+      }
+    },
+    {
+      "name": "Straw trouser hem",
+      "from": [
+        9,
+        7,
+        6.3
+      ],
+      "to": [
+        12,
+        9,
+        9.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#scarecrow_straw"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#scarecrow_straw"
+        }
+      }
+    }
+  ]
+}

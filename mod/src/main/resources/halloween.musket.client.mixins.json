@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "dev.halloween.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MusketViewMixin",
+    "RailPassengerMoveMixin",
+    "RailPassengerTeleportMixin",
+    "RailSeatCameraMixin",
+    "RailSeatRenderMixin",
+    "HiddenTestWindowMixin",
+    "VehicleTargetingMixin",
+    "RailHelmPoseMixin",
+    "RailRestPoseMixin",
+    "KnockdownRenderStateMixin",
+    "KnockdownPlayerRendererMixin",
+    "KnockdownCameraMixin",
+    "KnockdownHandMixin",
+    "PlayerWeaponStateMixin",
+    "PlayerWeaponRendererMixin",
+    "PlayerWeaponModelMixin",
+    "PlayerWeaponGripMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

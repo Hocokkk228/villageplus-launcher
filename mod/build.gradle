@@ -1,0 +1,418 @@
+plugins {
+    id 'fabric-loom' version '1.17.17'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+base { archivesName = project.archives_base_name }
+
+// Optional offline mirror used on machines with an existing Minecraft mapping cache.
+repositories {
+    if (file('.local-maven').exists()) {
+        exclusiveContent {
+            forRepository {
+                maven {
+                    url = uri('.local-maven')
+                    metadataSources { artifact() }
+                }
+            }
+            filter { includeModule('net.fabricmc', 'intermediary') }
+        }
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    if (project.hasProperty('railCompatModsDir')) {
+        def railMods = fileTree(dir: project.property('railCompatModsDir'), includes: ['sodium-fabric-*.jar','lithium-fabric-*.jar','entityculling-fabric-*.jar','moreculling-fabric-*.jar','cloth-config-*.jar','ImmediatelyFast-*.jar','BadOptimizations-*.jar'])
+        // Development launches need nested libraries as explicit runtime mods too.
+        railMods.each { jar -> project.copy {
+            from zipTree(jar)
+            include 'META-INF/jars/*.jar'
+            eachFile { path = name }
+            includeEmptyDirs = false
+            into layout.buildDirectory.dir('rail-compat-libs')
+        } }
+        modLocalRuntime fileTree(dir: 'build/rail-compat-libs', include: '*.jar')
+        modLocalRuntime railMods
+    }
+    if (project.hasProperty('compatModsDir')) {
+        modLocalRuntime fileTree(dir: project.property('compatModsDir'), includes: ['iris-*.jar', 'sodium-*.jar'])
+        runtimeOnly fileTree(dir: 'build/compat-libs', includes: ['antlr*.jar', 'glsl-transformer*.jar', 'jcpp*.jar'])
+    }
+}
+
+loom {
+    runs {
+        worldSettlementTest {
+            server()
+            runDir 'build/world-settlement-test'
+            vmArg '-Dhalloween.worldSettlementTest=true'
+            programArgs 'nogui'
+        }
+        resourceRegression {
+            server()
+            runDir 'build/resource-regression'
+            vmArg '-Dhalloween.regression036=true'
+            programArgs 'nogui'
+        }
+        steamRegression {
+            server()
+            runDir 'build/steam-regression'
+            vmArg '-Dhalloween.regression=true'
+            programArgs 'nogui'
+        }
+        factoryFlow {
+            server()
+            runDir 'build/factory-flow-0505'
+            vmArg '-Dhalloween.factoryFlowTest=true'
+            programArgs 'nogui'
+        }
+        villageRecovery {
+            server()
+            runDir 'build/village-recovery-05020'
+            vmArg '-Dhalloween.recoveryTest=true'
+            vmArg '-Xmx1536M'
+            programArgs 'nogui'
+        }
+        eraRegression {
+            server()
+            runDir 'build/era-regression-0505'
+            vmArg '-Dhalloween.regression=true'
+            programArgs 'nogui'
+        }
+        railPreparation {
+            server()
+            runDir 'build/rail-preparation-0506'
+            vmArg '-Dhalloween.railPreparationTest=true'
+            programArgs 'nogui'
+        }
+        legacyLastBlocks {
+            server()
+            runDir 'build/player-lastblock-test'
+            vmArg '-Dhalloween.legacyLastBlocks=true'
+            vmArg '-Xmx4G'
+            programArgs 'nogui'
+        }
+        eraCompletion {
+            server()
+            runDir 'build/era-completion-0505'
+            vmArg '-Dhalloween.eraSoakFast=true'
+            vmArg '-Dhalloween.eraSoak=true'
+            programArgs 'nogui'
+        }
+        eraSoakB {
+            server()
+            runDir 'build/epoch-soak-B'
+            vmArg '-Dhalloween.eraSoak=true'
+            programArgs 'nogui'
+        }
+        regressionServer {
+            server()
+            runDir 'build/regression-server'
+            if (project.hasProperty('eraSoak')) vmArg '-Dhalloween.eraSoak=true'
+            else vmArg '-Dhalloween.regression=true'
+            if (project.hasProperty('regression036')) vmArg '-Dhalloween.regression036=true'
+            if (project.hasProperty('worldgenRegression')) vmArg '-Dhalloween.worldgenRegression=true'
+            programArgs 'nogui'
+        }
+        justicePlayClient {
+            client()
+            runDir 'run'
+            programArgs '--quickPlaySingleplayer', 'New World'
+        }
+        industrialMachinePhotos {
+            client()
+            runDir 'run-machine-photos'
+            if (project.hasProperty('fightPhotos')) vmArg '-Dhalloween.fightPhotos=true'
+            else vmArg '-Dhalloween.machinePhotos=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Machines Photos 0520'
+        }
+        machineFactoryFlow {
+            server()
+            runDir 'build/machine-factory-flow-0520'
+            vmArg '-Dhalloween.machineFactoryFlowTest=true'
+            vmArg '-Xmx4G'
+            programArgs 'nogui'
+        }
+        fightChecks {
+            server()
+            runDir 'build/fight-checks-0520'
+            vmArg '-Dhalloween.fightChecks=true'
+            vmArg '-Xmx3G'
+            programArgs 'nogui'
+        }
+        industrialMachines {
+            server()
+            runDir 'build/industrial-machines-0520'
+            vmArg '-Dhalloween.industrialMachinesTest=true'
+            vmArg '-Xmx4G'
+            programArgs 'nogui'
+        }
+        eraPhotoClient {
+            client()
+            runDir 'run-era-photos'
+            vmArg '-Dhalloween.eraPhotos=true'
+            vmArg '-Dhalloween.repairPhotos=' + project.hasProperty('repairPhotos')
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            vmArg '-Dhalloween.industrialPhotos=' + project.hasProperty('industrialPhotos')
+            vmArg '-Dhalloween.spasPhotos=' + project.hasProperty('spasPhotos')
+            vmArg '-Dhalloween.presidentialPhotos=' + project.hasProperty('presidentialPhotos')
+            programArgs '--quickPlaySingleplayer', project.hasProperty('repairPhotos') ? 'Repair Photos 0517' : (project.hasProperty('presidentialPhotos') ? 'Presidential Photos' : (project.hasProperty('spasPhotos') ? 'Spas Photos' : (project.hasProperty('industrialPhotos') ? 'Industrial Photos v2' : 'Third Era Photos')))
+        }
+        compatClient {
+            client()
+            runDir 'run-compat'
+        }
+        railConstruction {
+            server()
+            runDir 'build/rail-construction'
+            vmArg '-Dhalloween.railConstruction=true'
+            programArgs 'nogui'
+        }
+        railBoarding {
+            server()
+            runDir 'build/rail-boarding'
+            vmArg '-Dhalloween.railBoarding=true'
+            programArgs 'nogui'
+        }
+        stationTrackTest {
+            server()
+            runDir 'build/rail-access-test'
+            vmArg '-Dhalloween.stationTrackTest=true'
+            programArgs 'nogui'
+        }
+        railAccessTest {
+            server()
+            runDir 'build/rail-access-test'
+            vmArg '-Dhalloween.railAccessTest=true'
+            programArgs 'nogui'
+        }
+        navalYardTest {
+            server()
+            runDir 'build/naval-yard-test'
+            vmArg '-Dhalloween.navalYardTest=true'
+            programArgs 'nogui'
+        }
+        cannonTest {
+            server()
+            runDir 'build/cannon-test'
+            vmArg '-Dhalloween.cannonTest=true'
+            programArgs 'nogui'
+        }
+        navalMultiServer {
+            server()
+            runDir 'build/naval-multiplayer'
+            vmArg '-Dhalloween.navalMultiServerTest=true'
+            programArgs 'nogui'
+        }
+        navalMultiA {
+            client()
+            runDir 'run-naval-multi-a'
+            vmArg '-Dhalloween.navalMultiClientTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--username', 'FleetFriendA', '--quickPlayMultiplayer', '127.0.0.1:25576'
+        }
+        navalMultiB {
+            client()
+            runDir 'run-naval-multi-b'
+            vmArg '-Dhalloween.navalMultiClientTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--username', 'FleetFriendB', '--quickPlayMultiplayer', '127.0.0.1:25576'
+        }
+        navalAccessClient {
+            client()
+            runDir 'run-naval-access'
+            vmArg '-Dhalloween.navalAccessTest=true'
+            vmArg '-Dhalloween.navalAccessKind='+ (project.findProperty('navalAccessKind') ?: '2')
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Ocean Access 049'
+        }
+        navalDemoClient {
+            client()
+            runDir 'run-naval-demo'
+            vmArg '-Dhalloween.navalDemo=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Northern Fleet 049'
+        }
+        taigaVerifyClient {
+            client()
+            runDir 'run-taiga-verify'
+            vmArg '-Dhalloween.taigaVerify=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Northern Verify 050'
+        }
+        taigaReadyClient {
+            client()
+            runDir 'run-taiga-ready'
+            vmArg '-Dhalloween.taigaReady=true'
+            vmArg '-Dhalloween.taigaPolish='+ (project.findProperty('taigaPolish') ?: 'false')
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Northern Evening 050'
+        }
+        barrelClient {
+            client()
+            runDir 'run-naval-visual'
+            vmArg '-Dhalloween.barrelTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Ship Visual 0492'
+        }
+        elevatedCourtClient {
+            client()
+            runDir 'run-court-height'
+            vmArg '-Dhalloween.elevatedCourtTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Raised Court'
+        }
+        nightCustodyClient {
+            client()
+            runDir 'run-sleeper'
+            vmArg '-Dhalloween.nightCustodyTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Sleeper Evening 050'
+        }
+        sleeperClient {
+            client()
+            runDir 'run-sleeper'
+            vmArg '-Dhalloween.sleeperTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Sleeper Evening 050'
+        }
+        navalVisualClient {
+            client()
+            runDir 'run-naval-visual'
+            vmArg '-Dhalloween.navalVisual=true'
+            vmArg '-Dhalloween.blastVisual=' + (project.findProperty('blastVisual') ?: 'false')
+            vmArg '-Dhalloween.helmVisualOnly='+ (project.findProperty('helmVisualOnly') ?: 'false')
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Ship Visual 0492'
+        }
+        launcherCosmeticClient {
+            client()
+            runDir 'run-launcher-cosmetics'
+            vmArg '-Dhalloween.launcherCosmeticTest=true'
+            vmArg '-Dhalloween.roomCheatsTest='+ (project.findProperty('roomCheatsTest') ?: 'false')
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Cosmetics Preview'
+        }
+        navalPlayClient {
+            client()
+            runDir 'run-naval-play'
+            vmArg '-Dhalloween.navalPlayTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Ocean Walk 049'
+        }
+        navalTest {
+            server()
+            runDir 'build/naval-test'
+            vmArg '-Dhalloween.navalTest=true'
+            programArgs 'nogui'
+        }
+        railNetworkTest {
+            server()
+            runDir 'build/rail-network-test'
+            vmArg '-Dhalloween.railNetworkTest=true'
+            programArgs 'nogui'
+        }
+        railRingDemo {
+            server()
+            runDir 'build/rail-ring-demo'
+            vmArg '-Dhalloween.railRingDemo=true'
+            programArgs 'nogui'
+        }
+        railVillageDemo {
+            server()
+            runDir 'build/rail-village-demo'
+            vmArg '-Dhalloween.railVillageDemo=true'
+            programArgs 'nogui'
+        }
+        railArrivalClient {
+            client()
+            runDir 'run-rail-arrival'
+            vmArg '-Dhalloween.railArrivalTest=true'
+            programArgs '--quickPlaySingleplayer', 'Arrival Test'
+        }
+        railOptClient {
+            client()
+            runDir 'run-rail-opt'
+            vmArg '-Dhalloween.railOptTest=true'
+            programArgs '--quickPlaySingleplayer', 'Rail Opt'
+        }
+        railMotionClient {
+            client()
+            runDir 'run-rail-motion'
+            vmArg '-Dhalloween.railMotionTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+            programArgs '--quickPlaySingleplayer', 'Motion 048'
+        }
+        railSeatClient {
+            client()
+            runDir 'run-rail-seat'
+            vmArg '-Dhalloween.railSeatSmoothTest=true'
+            programArgs '--quickPlaySingleplayer', 'Seat 048'
+        }
+        railPlayClient {
+            client()
+            runDir 'run-rail-test'
+            vmArg '-Dhalloween.railPlaytest=true'
+            programArgs '--quickPlaySingleplayer', 'Railway Test'
+        }
+        smokeClient {
+            client()
+            runDir 'run-smoke'
+            vmArg '-Dhalloween.smokeTest=true'
+            programArgs '--quickPlaySingleplayer', 'Halloween Smoke'
+        }
+        villagerMotionClient {
+            client()
+            runDir 'build/villager-motion-client'
+            if (project.hasProperty('exportPlayerPoses')) vmArg '-Dhalloween.exportPlayerPoses=true'
+            vmArg '-Dhalloween.armorPoseTest=true'
+            vmArg '-Dhalloween.hiddenClientTest=true'
+        }
+        armorVisualClient {
+            client()
+            runDir 'run-village-smoke-v2'
+            vmArg '-Dhalloween.armorVisual=true'
+            programArgs '--quickPlaySingleplayer', (project.findProperty('villageTestWorld') ?: 'Village Smoke')
+        }
+        villageSmokeClient {
+            client()
+            runDir 'run-village-smoke-v2'
+            vmArg '-Dhalloween.villageSmokeTest=true'
+            if (project.hasProperty('armorPoseTest')) vmArg '-Dhalloween.armorPoseTest=true'
+            if (project.hasProperty('crimeRegression')) vmArg '-Dhalloween.crimeRegression=true'
+            if (project.hasProperty('courtRouteRegression')) vmArg '-Dhalloween.courtRouteRegression=true'
+            programArgs '--quickPlaySingleplayer', (project.findProperty('villageTestWorld') ?: 'Village Smoke')
+        }
+    }
+}
+
+tasks.register('shaderCompatTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.halloween.compat.LanternShaderAliasesTest'
+}
+check.dependsOn shaderCompatTest
+// Regression checks use the standalone shaderCompatTest runner, not JUnit.
+tasks.named('test') { failOnNoDiscoveredTests = false }
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand 'version': project.version }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+    options.encoding = 'UTF-8'
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+    withSourcesJar()
+}

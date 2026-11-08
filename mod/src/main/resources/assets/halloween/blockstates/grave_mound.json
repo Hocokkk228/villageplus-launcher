@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "halloween:block/grave_mound",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "halloween:block/grave_mound",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "halloween:block/grave_mound",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "halloween:block/grave_mound",
+      "y": 270
+    }
+  }
+}

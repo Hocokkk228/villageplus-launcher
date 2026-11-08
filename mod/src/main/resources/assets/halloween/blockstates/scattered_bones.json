@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "halloween:block/scattered_bones",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "halloween:block/scattered_bones",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "halloween:block/scattered_bones",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "halloween:block/scattered_bones",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:lantern",
+    "minecraft:black_wool",
+    "minecraft:flint"
+  ],
+  "result": {
+    "id": "halloween:bat_lantern",
+    "count": 1
+  }
+}

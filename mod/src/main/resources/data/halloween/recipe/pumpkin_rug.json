@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:orange_wool",
+    "minecraft:black_dye",
+    "minecraft:pumpkin"
+  ],
+  "result": {
+    "id": "halloween:pumpkin_rug",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "halloween:item/sedan",
+    "model": {
+      "type": "halloween:industrial_vehicle_item",
+      "kind": 0
+    }
+  }
+}

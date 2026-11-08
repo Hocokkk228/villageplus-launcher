@@ -1,0 +1,750 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "rusted_iron": "halloween:block/rusted_iron",
+    "witch_bottle": "halloween:block/witch_bottle",
+    "haunted_wood": "halloween:block/haunted_wood",
+    "velvet_black": "halloween:block/velvet_black",
+    "scythe_steel": "halloween:block/scythe_steel",
+    "particle": "halloween:block/haunted_wood"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        25,
+        155,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "Cabinet back",
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        15,
+        14,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.333333333333333
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.333333333333333
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.333333333333333
+          ],
+          "texture": "#haunted_wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Side frame",
+      "from": [
+        14,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        14,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.333333333333333
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.333333333333333
+          ],
+          "texture": "#haunted_wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.333333333333333
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.333333333333333
+          ],
+          "texture": "#haunted_wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Gothic crown",
+      "from": [
+        0,
+        14,
+        1
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Interior shelf",
+      "from": [
+        0,
+        11,
+        3.5
+      ],
+      "to": [
+        14,
+        12,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Potion bottle",
+      "from": [
+        4,
+        0,
+        8
+      ],
+      "to": [
+        7,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#witch_bottle"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#witch_bottle"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#witch_bottle"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#witch_bottle"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#witch_bottle"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#witch_bottle"
+        }
+      }
+    },
+    {
+      "name": "Bottle cork",
+      "from": [
+        4.7,
+        6,
+        8.7
+      ],
+      "to": [
+        6.3,
+        7,
+        10.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Heavy door",
+      "from": [
+        12.8,
+        0,
+        -12.3
+      ],
+      "to": [
+        14.0,
+        13,
+        1.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.073170731707317
+          ],
+          "texture": "#haunted_wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.073170731707317
+          ],
+          "texture": "#haunted_wood"
+        },
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.073170731707317
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            5.073170731707317
+          ],
+          "texture": "#haunted_wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Inset panel",
+      "from": [
+        14.01,
+        0,
+        -11.3
+      ],
+      "to": [
+        14.25,
+        11,
+        0.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            4.756756756756757
+          ],
+          "texture": "#velvet_black"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            4.756756756756757
+          ],
+          "texture": "#velvet_black"
+        },
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            4.756756756756757
+          ],
+          "texture": "#velvet_black"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            4.756756756756757
+          ],
+          "texture": "#velvet_black"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#velvet_black"
+        }
+      }
+    },
+    {
+      "name": "Silver cross stem",
+      "from": [
+        14.26,
+        0,
+        -6.0
+      ],
+      "to": [
+        14.55,
+        6,
+        -4.8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            6.4
+          ],
+          "texture": "#scythe_steel"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            6.4
+          ],
+          "texture": "#scythe_steel"
+        },
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            6.4
+          ],
+          "texture": "#scythe_steel"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            6.4
+          ],
+          "texture": "#scythe_steel"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#scythe_steel"
+        }
+      }
+    },
+    {
+      "name": "Silver cross bar",
+      "from": [
+        14.26,
+        0,
+        -9.4
+      ],
+      "to": [
+        14.55,
+        1.2,
+        -1.4000000000000004
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scythe_steel"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scythe_steel"
+        },
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scythe_steel"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#scythe_steel"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#scythe_steel"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#scythe_steel"
+        }
+      }
+    },
+    {
+      "name": "Door iron strap",
+      "from": [
+        14.26,
+        7,
+        -12.1
+      ],
+      "to": [
+        14.45,
+        7.8,
+        1.3000000000000007
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#rusted_iron"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#rusted_iron"
+        },
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#rusted_iron"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#rusted_iron"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#rusted_iron"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#rusted_iron"
+        }
+      }
+    }
+  ]
+}

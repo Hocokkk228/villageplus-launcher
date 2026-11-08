@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:dark_oak_planks",
+    "minecraft:book",
+    "minecraft:purple_dye"
+  ],
+  "result": {
+    "id": "halloween:spellbook_pedestal",
+    "count": 1
+  }
+}

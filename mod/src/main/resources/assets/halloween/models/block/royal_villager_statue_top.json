@@ -1,0 +1,769 @@
+{
+  "textures": {
+    "villager": "halloween:block/royal_villager_stone",
+    "base": "minecraft:block/stone_bricks",
+    "crown": "minecraft:block/chiseled_stone_bricks",
+    "particle": "minecraft:block/stone"
+  },
+  "elements": [
+    {
+      "name": "head",
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        6,
+        12
+      ],
+      "faces": {
+        "west": {
+          "texture": "#villager",
+          "uv": [
+            0.0,
+            2.0,
+            2.0,
+            3.5
+          ]
+        },
+        "north": {
+          "texture": "#villager",
+          "uv": [
+            2.0,
+            2.0,
+            4.0,
+            3.5
+          ]
+        },
+        "east": {
+          "texture": "#villager",
+          "uv": [
+            4.0,
+            2.0,
+            6.0,
+            3.5
+          ]
+        },
+        "south": {
+          "texture": "#villager",
+          "uv": [
+            6.0,
+            2.0,
+            8.0,
+            3.5
+          ]
+        },
+        "up": {
+          "texture": "#villager",
+          "uv": [
+            2.0,
+            0.0,
+            4.0,
+            2.0
+          ]
+        },
+        "down": {
+          "texture": "#villager",
+          "uv": [
+            4.0,
+            0.0,
+            6.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown band",
+      "from": [
+        3.5,
+        5.5,
+        3.5
+      ],
+      "to": [
+        12.5,
+        7,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown band",
+      "from": [
+        3.5,
+        5.5,
+        11.5
+      ],
+      "to": [
+        12.5,
+        7,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown band",
+      "from": [
+        3.5,
+        5.5,
+        4.5
+      ],
+      "to": [
+        4.5,
+        7,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown band",
+      "from": [
+        11.5,
+        5.5,
+        4.5
+      ],
+      "to": [
+        12.5,
+        7,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown point",
+      "from": [
+        3.5,
+        7,
+        3.5
+      ],
+      "to": [
+        4.5,
+        9,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown point",
+      "from": [
+        3.5,
+        7,
+        11.5
+      ],
+      "to": [
+        4.5,
+        9,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown point",
+      "from": [
+        7.5,
+        7,
+        3.5
+      ],
+      "to": [
+        8.5,
+        9,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown point",
+      "from": [
+        7.5,
+        7,
+        11.5
+      ],
+      "to": [
+        8.5,
+        9,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown point",
+      "from": [
+        11.5,
+        7,
+        3.5
+      ],
+      "to": [
+        12.5,
+        9,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "crown point",
+      "from": [
+        11.5,
+        7,
+        11.5
+      ],
+      "to": [
+        12.5,
+        9,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#crown",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

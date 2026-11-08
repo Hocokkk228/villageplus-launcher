@@ -1,0 +1,11 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "wood": "halloween:block/haunted_wood",
+    "iron": "halloween:block/rusted_iron",
+    "velvet": "halloween:block/velvet_purple",
+    "pattern": "halloween:block/cushion_pumpkin",
+    "particle": "halloween:block/haunted_wood"
+  },
+  "elements": []
+}

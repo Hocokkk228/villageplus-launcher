@@ -1,0 +1,138 @@
+{
+  "textures": {
+    "iron": "minecraft:block/polished_deepslate",
+    "particle": "minecraft:block/polished_deepslate"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        3,
+        4
+      ],
+      "to": [
+        12,
+        13,
+        12
+      ],
+      "faces": {
+        "up": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#iron",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        4,
+        4
+      ],
+      "to": [
+        13,
+        12,
+        12
+      ],
+      "faces": {
+        "up": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#iron",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        4,
+        3
+      ],
+      "to": [
+        12,
+        12,
+        13
+      ],
+      "faces": {
+        "up": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#iron",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#iron",
+          "tintindex": 0
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        22,
+        35,
+        0
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  }
+}

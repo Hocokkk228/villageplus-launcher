@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "PPP",
+    " W ",
+    "S S"
+  ],
+  "key": {
+    "P": "minecraft:dark_oak_planks",
+    "W": "minecraft:orange_wool",
+    "S": "minecraft:dark_oak_fence"
+  },
+  "result": {
+    "id": "halloween:banquet_table",
+    "count": 1
+  }
+}

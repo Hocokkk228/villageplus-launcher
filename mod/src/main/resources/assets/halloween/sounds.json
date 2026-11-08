@@ -1,0 +1,80 @@
+{
+  "transport.steam": {
+    "subtitle": "subtitles.halloween.transport.steam",
+    "sounds": [
+      {
+        "name": "halloween:transport/steam",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "transport.rolling": {
+    "subtitle": "subtitles.halloween.transport.rolling",
+    "sounds": [
+      {
+        "name": "halloween:transport/rolling",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "transport.whistle": {
+    "subtitle": "subtitles.halloween.transport.whistle",
+    "sounds": [
+      {
+        "name": "halloween:transport/whistle",
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "transport.brake": {
+    "subtitle": "subtitles.halloween.transport.brake",
+    "sounds": [
+      {
+        "name": "halloween:transport/brake",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "transport.sea": {
+    "subtitle": "subtitles.halloween.transport.sea",
+    "sounds": [
+      {
+        "name": "halloween:transport/sea",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "transport.creak": {
+    "subtitle": "subtitles.halloween.transport.creak",
+    "sounds": [
+      {
+        "name": "halloween:transport/creak",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.station_0": {
+    "sounds": [
+      {
+        "name": "halloween:radio/station_0",
+        "stream": false
+      }
+    ]
+  },
+  "radio.station_1": {
+    "sounds": [
+      {
+        "name": "halloween:radio/station_1",
+        "stream": false
+      }
+    ]
+  },
+  "radio.station_2": {
+    "sounds": [
+      {
+        "name": "halloween:radio/station_2",
+        "stream": false
+      }
+    ]
+  }
+}

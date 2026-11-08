@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:bone",
+    "minecraft:bone"
+  ],
+  "result": {
+    "id": "halloween:crossed_bones",
+    "count": 1
+  }
+}

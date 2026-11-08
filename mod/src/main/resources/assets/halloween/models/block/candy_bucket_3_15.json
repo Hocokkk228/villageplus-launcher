@@ -1,0 +1,8621 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "bucket_orange": "halloween:block/bucket_orange",
+    "bucket_inner": "halloween:block/bucket_inner",
+    "bucket_brass": "halloween:block/bucket_brass",
+    "corn_white": "halloween:block/corn_white",
+    "corn_orange": "halloween:block/corn_orange",
+    "corn_yellow": "halloween:block/corn_yellow",
+    "bucket_face": "halloween:block/bucket_face",
+    "particle": "halloween:block/bucket_orange"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        25,
+        155,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "Octagonal bottom",
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ],
+          "texture": "#bucket_inner"
+        },
+        "south": {
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ],
+          "texture": "#bucket_inner"
+        },
+        "east": {
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ],
+          "texture": "#bucket_inner"
+        },
+        "west": {
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ],
+          "texture": "#bucket_inner"
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#bucket_inner"
+        },
+        "down": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#bucket_inner"
+        }
+      }
+    },
+    {
+      "name": "Front pumpkin face",
+      "from": [
+        3.5,
+        1,
+        2.5
+      ],
+      "to": [
+        12.5,
+        9,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bucket_face"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            7,
+            3.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            2.5,
+            12.5,
+            3.5
+          ],
+          "texture": "#bucket_orange"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            12.5,
+            12.5,
+            13.5
+          ],
+          "texture": "#bucket_orange"
+        }
+      }
+    },
+    {
+      "name": "Back wall",
+      "from": [
+        3.5,
+        1,
+        12.5
+      ],
+      "to": [
+        12.5,
+        9,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            7,
+            3.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            12.5,
+            12.5,
+            13.5
+          ],
+          "texture": "#bucket_orange"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            2.5,
+            12.5,
+            3.5
+          ],
+          "texture": "#bucket_orange"
+        }
+      }
+    },
+    {
+      "name": "Left wall",
+      "from": [
+        2.5,
+        1,
+        3.5
+      ],
+      "to": [
+        3.5,
+        9,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            7,
+            3.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            3.5,
+            3.5,
+            12.5
+          ],
+          "texture": "#bucket_orange"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            3.5,
+            3.5,
+            12.5
+          ],
+          "texture": "#bucket_orange"
+        }
+      }
+    },
+    {
+      "name": "Right wall",
+      "from": [
+        12.5,
+        1,
+        3.5
+      ],
+      "to": [
+        13.5,
+        9,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            7,
+            3.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            7,
+            12.5,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            3.5,
+            13.5,
+            12.5
+          ],
+          "texture": "#bucket_orange"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            3.5,
+            13.5,
+            12.5
+          ],
+          "texture": "#bucket_orange"
+        }
+      }
+    },
+    {
+      "name": "Chamfered corner",
+      "from": [
+        3,
+        1,
+        3
+      ],
+      "to": [
+        4,
+        9,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            7,
+            13,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "south": {
+          "uv": [
+            3,
+            7,
+            4,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "east": {
+          "uv": [
+            12,
+            7,
+            13,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "west": {
+          "uv": [
+            3,
+            7,
+            4,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "up": {
+          "uv": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "texture": "#bucket_orange"
+        },
+        "down": {
+          "uv": [
+            3,
+            12,
+            4,
+            13
+          ],
+          "texture": "#bucket_orange"
+        }
+      }
+    },
+    {
+      "name": "Chamfered corner",
+      "from": [
+        3,
+        1,
+        12
+      ],
+      "to": [
+        4,
+        9,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            7,
+            13,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "south": {
+          "uv": [
+            3,
+            7,
+            4,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "east": {
+          "uv": [
+            3,
+            7,
+            4,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "west": {
+          "uv": [
+            12,
+            7,
+            13,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "up": {
+          "uv": [
+            3,
+            12,
+            4,
+            13
+          ],
+          "texture": "#bucket_orange"
+        },
+        "down": {
+          "uv": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "texture": "#bucket_orange"
+        }
+      }
+    },
+    {
+      "name": "Chamfered corner",
+      "from": [
+        12,
+        1,
+        3
+      ],
+      "to": [
+        13,
+        9,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            7,
+            4,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "south": {
+          "uv": [
+            12,
+            7,
+            13,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "east": {
+          "uv": [
+            12,
+            7,
+            13,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "west": {
+          "uv": [
+            3,
+            7,
+            4,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "up": {
+          "uv": [
+            12,
+            3,
+            13,
+            4
+          ],
+          "texture": "#bucket_orange"
+        },
+        "down": {
+          "uv": [
+            12,
+            12,
+            13,
+            13
+          ],
+          "texture": "#bucket_orange"
+        }
+      }
+    },
+    {
+      "name": "Chamfered corner",
+      "from": [
+        12,
+        1,
+        12
+      ],
+      "to": [
+        13,
+        9,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            7,
+            4,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "south": {
+          "uv": [
+            12,
+            7,
+            13,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "east": {
+          "uv": [
+            3,
+            7,
+            4,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "west": {
+          "uv": [
+            12,
+            7,
+            13,
+            15
+          ],
+          "texture": "#bucket_orange"
+        },
+        "up": {
+          "uv": [
+            12,
+            12,
+            13,
+            13
+          ],
+          "texture": "#bucket_orange"
+        },
+        "down": {
+          "uv": [
+            12,
+            3,
+            13,
+            4
+          ],
+          "texture": "#bucket_orange"
+        }
+      }
+    },
+    {
+      "name": "Brass rim",
+      "from": [
+        3,
+        9,
+        2
+      ],
+      "to": [
+        13,
+        10,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            6,
+            13,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            3,
+            6,
+            13,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            6,
+            14,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            2,
+            6,
+            3.5,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            3,
+            2,
+            13,
+            3.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            3,
+            12.5,
+            13,
+            14
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Brass rim",
+      "from": [
+        3,
+        9,
+        12.5
+      ],
+      "to": [
+        13,
+        10,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            6,
+            13,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            3,
+            6,
+            13,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            2,
+            6,
+            3.5,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            6,
+            14,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            3,
+            12.5,
+            13,
+            14
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            3,
+            2,
+            13,
+            3.5
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Brass rim",
+      "from": [
+        2,
+        9,
+        3.5
+      ],
+      "to": [
+        3.5,
+        10,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            6,
+            14,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            2,
+            6,
+            3.5,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            6,
+            12.5,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            6,
+            12.5,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            2,
+            3.5,
+            3.5,
+            12.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            2,
+            3.5,
+            3.5,
+            12.5
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Brass rim",
+      "from": [
+        12.5,
+        9,
+        3.5
+      ],
+      "to": [
+        14,
+        10,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6,
+            3.5,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            6,
+            14,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            6,
+            12.5,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            6,
+            12.5,
+            7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            3.5,
+            14,
+            12.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            3.5,
+            14,
+            12.5
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Dark inside lining",
+      "from": [
+        3.5,
+        1.1,
+        3.51
+      ],
+      "to": [
+        12.5,
+        8.9,
+        3.56
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            7.1,
+            12.5,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            7.1,
+            12.5,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "east": {
+          "uv": [
+            12.44,
+            7.1,
+            12.49,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "west": {
+          "uv": [
+            3.51,
+            7.1,
+            3.56,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            3.51,
+            12.5,
+            3.56
+          ],
+          "texture": "#bucket_inner"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            12.44,
+            12.5,
+            12.49
+          ],
+          "texture": "#bucket_inner"
+        }
+      }
+    },
+    {
+      "name": "Dark inside lining",
+      "from": [
+        3.5,
+        1.1,
+        12.44
+      ],
+      "to": [
+        12.5,
+        8.9,
+        12.49
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            7.1,
+            12.5,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            7.1,
+            12.5,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "east": {
+          "uv": [
+            3.51,
+            7.1,
+            3.5600000000000005,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "west": {
+          "uv": [
+            12.44,
+            7.1,
+            12.49,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            12.44,
+            12.5,
+            12.49
+          ],
+          "texture": "#bucket_inner"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            3.51,
+            12.5,
+            3.5600000000000005
+          ],
+          "texture": "#bucket_inner"
+        }
+      }
+    },
+    {
+      "name": "Dark inside lining",
+      "from": [
+        3.51,
+        1.1,
+        3.6
+      ],
+      "to": [
+        3.56,
+        8.9,
+        12.4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.44,
+            7.1,
+            12.49,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "south": {
+          "uv": [
+            3.51,
+            7.1,
+            3.56,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "east": {
+          "uv": [
+            3.5999999999999996,
+            7.1,
+            12.4,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "west": {
+          "uv": [
+            3.6,
+            7.1,
+            12.4,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "up": {
+          "uv": [
+            3.51,
+            3.6,
+            3.56,
+            12.4
+          ],
+          "texture": "#bucket_inner"
+        },
+        "down": {
+          "uv": [
+            3.51,
+            3.5999999999999996,
+            3.56,
+            12.4
+          ],
+          "texture": "#bucket_inner"
+        }
+      }
+    },
+    {
+      "name": "Dark inside lining",
+      "from": [
+        12.44,
+        1.1,
+        3.6
+      ],
+      "to": [
+        12.49,
+        8.9,
+        12.4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.51,
+            7.1,
+            3.5600000000000005,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "south": {
+          "uv": [
+            12.44,
+            7.1,
+            12.49,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "east": {
+          "uv": [
+            3.5999999999999996,
+            7.1,
+            12.4,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "west": {
+          "uv": [
+            3.6,
+            7.1,
+            12.4,
+            14.9
+          ],
+          "texture": "#bucket_inner"
+        },
+        "up": {
+          "uv": [
+            12.44,
+            3.6,
+            12.49,
+            12.4
+          ],
+          "texture": "#bucket_inner"
+        },
+        "down": {
+          "uv": [
+            12.44,
+            3.5999999999999996,
+            12.49,
+            12.4
+          ],
+          "texture": "#bucket_inner"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        13.4312,
+        8.78,
+        7.7
+      ],
+      "to": [
+        13.92,
+        10.0815,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.08,
+            5.918527131347659,
+            2.568764290169282,
+            7.220000000000001
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            13.431235709830718,
+            5.918527131347659,
+            13.92,
+            7.220000000000001
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            5.918527131347659,
+            8.3,
+            7.220000000000001
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            5.918527131347659,
+            8.3,
+            7.220000000000001
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            13.431235709830718,
+            7.7,
+            13.92,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            13.431235709830718,
+            7.699999999999999,
+            13.92,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        13.2858,
+        9.6415,
+        7.7
+      ],
+      "to": [
+        13.8712,
+        10.9282,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.128764290169281,
+            5.071794302323363,
+            2.714222790152311,
+            6.35852713134766
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            13.285777209847689,
+            5.071794302323363,
+            13.871235709830719,
+            6.35852713134766
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            5.071794302323363,
+            8.3,
+            6.35852713134766
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            5.071794302323363,
+            8.3,
+            6.35852713134766
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            13.285777209847689,
+            7.7,
+            13.871235709830719,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            13.285777209847689,
+            7.699999999999999,
+            13.871235709830719,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        13.0461,
+        10.4882,
+        7.7
+      ],
+      "to": [
+        13.7258,
+        11.7457,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.2742227901523098,
+            4.254289346390406,
+            2.953886664685667,
+            5.511794302323365
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            13.046113335314333,
+            4.254289346390406,
+            13.72577720984769,
+            5.511794302323365
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            4.254289346390406,
+            8.3,
+            5.511794302323365
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            4.254289346390406,
+            8.3,
+            5.511794302323365
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            13.046113335314333,
+            7.7,
+            13.72577720984769,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            13.046113335314333,
+            7.699999999999999,
+            13.72577720984769,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        12.7163,
+        11.3057,
+        7.7
+      ],
+      "to": [
+        13.4861,
+        12.52,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.513886664685666,
+            3.4800000000000004,
+            3.283655198428699,
+            4.694289346390407
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            12.716344801571301,
+            3.4800000000000004,
+            13.486113335314334,
+            4.694289346390407
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            3.4800000000000004,
+            8.3,
+            4.694289346390407
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            3.4800000000000004,
+            8.3,
+            4.694289346390407
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            12.716344801571301,
+            7.7,
+            13.486113335314334,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            12.716344801571301,
+            7.699999999999999,
+            13.486113335314334,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        12.3021,
+        12.08,
+        7.7
+      ],
+      "to": [
+        13.1563,
+        13.2378,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.8436551984286975,
+            2.7621745685424433,
+            3.69788596033996,
+            3.9200000000000017
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            12.30211403966004,
+            2.7621745685424433,
+            13.156344801571302,
+            3.9200000000000017
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            2.7621745685424433,
+            8.3,
+            3.9200000000000017
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            2.7621745685424433,
+            8.3,
+            3.9200000000000017
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            12.30211403966004,
+            7.7,
+            13.156344801571302,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            12.30211403966004,
+            7.699999999999999,
+            13.156344801571302,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        11.8105,
+        12.7978,
+        7.7
+      ],
+      "to": [
+        12.7421,
+        13.8869,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.2578859603399586,
+            2.113095244168786,
+            4.189491347236681,
+            3.2021745685424445
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            11.81050865276332,
+            2.113095244168786,
+            12.742114039660041,
+            3.2021745685424445
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            2.113095244168786,
+            8.3,
+            3.2021745685424445
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            2.113095244168786,
+            8.3,
+            3.2021745685424445
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            11.81050865276332,
+            7.7,
+            12.742114039660041,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            11.81050865276332,
+            7.699999999999999,
+            12.742114039660041,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        11.2499,
+        13.4469,
+        7.7
+      ],
+      "to": [
+        12.2505,
+        14.4561,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.7494913472366793,
+            1.5438679540778484,
+            4.750059854650294,
+            2.5530952441687873
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            11.249940145349706,
+            1.5438679540778484,
+            12.25050865276332,
+            2.5530952441687873
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            1.5438679540778484,
+            8.3,
+            2.5530952441687873
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            1.5438679540778484,
+            8.3,
+            2.5530952441687873
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            11.249940145349706,
+            7.7,
+            12.25050865276332,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            11.249940145349706,
+            7.699999999999999,
+            12.25050865276332,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        10.63,
+        14.0161,
+        7.7
+      ],
+      "to": [
+        11.6899,
+        14.9358,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.310059854650293,
+            1.0642323350227052,
+            5.369999999999999,
+            1.9838679540778497
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            10.63,
+            1.0642323350227052,
+            11.689940145349707,
+            1.9838679540778497
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            1.0642323350227052,
+            8.3,
+            1.9838679540778497
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            1.0642323350227052,
+            8.3,
+            1.9838679540778497
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            10.63,
+            7.7,
+            11.689940145349707,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            10.63,
+            7.699999999999999,
+            11.689940145349707,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        9.9613,
+        14.4958,
+        7.7
+      ],
+      "to": [
+        11.07,
+        15.3176,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.929999999999998,
+            0.6823950854255063,
+            6.038704435518989,
+            1.5042323350227065
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            9.961295564481011,
+            0.6823950854255063,
+            11.070000000000002,
+            1.5042323350227065
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            0.6823950854255063,
+            8.3,
+            1.5042323350227065
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            0.6823950854255063,
+            8.3,
+            1.5042323350227065
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            9.961295564481011,
+            7.7,
+            11.070000000000002,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            9.961295564481011,
+            7.699999999999999,
+            11.070000000000002,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        9.2553,
+        14.8776,
+        7.7
+      ],
+      "to": [
+        10.4013,
+        15.5951,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.598704435518988,
+            0.40488954649214826,
+            6.744731442915633,
+            1.1223950854255076
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            9.255268557084367,
+            0.40488954649214826,
+            10.401295564481012,
+            1.1223950854255076
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            0.40488954649214826,
+            8.3,
+            1.1223950854255076
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            0.40488954649214826,
+            8.3,
+            1.1223950854255076
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            9.255268557084367,
+            7.7,
+            10.401295564481012,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            9.255268557084367,
+            7.699999999999999,
+            10.401295564481012,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        8.524,
+        15.1551,
+        7.7
+      ],
+      "to": [
+        9.6953,
+        15.7635,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.304731442915632,
+            0.23646391493285002,
+            7.476000704345706,
+            0.8448895464921495
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            8.523999295654294,
+            0.23646391493285002,
+            9.695268557084368,
+            0.8448895464921495
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            0.23646391493285002,
+            8.3,
+            0.8448895464921495
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            0.23646391493285002,
+            8.3,
+            0.8448895464921495
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            8.523999295654294,
+            7.7,
+            9.695268557084368,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            8.523999295654294,
+            7.699999999999999,
+            9.695268557084368,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        7.78,
+        15.3235,
+        7.7
+      ],
+      "to": [
+        8.964,
+        15.82,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.036000704345705,
+            0.17999999999999972,
+            8.219999999999999,
+            0.6764639149328513
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            7.78,
+            0.17999999999999972,
+            8.963999295654295,
+            0.6764639149328513
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            0.17999999999999972,
+            8.3,
+            0.6764639149328513
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            0.17999999999999972,
+            8.3,
+            0.6764639149328513
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            7.78,
+            7.7,
+            8.963999295654295,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            7.78,
+            7.699999999999999,
+            8.963999295654295,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        7.036,
+        15.3235,
+        7.7
+      ],
+      "to": [
+        8.22,
+        15.82,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.779999999999999,
+            0.17999999999999972,
+            8.963999295654293,
+            0.6764639149328513
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            7.036000704345706,
+            0.17999999999999972,
+            8.22,
+            0.6764639149328513
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            0.17999999999999972,
+            8.3,
+            0.6764639149328513
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            0.17999999999999972,
+            8.3,
+            0.6764639149328513
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            7.036000704345706,
+            7.7,
+            8.22,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            7.036000704345706,
+            7.699999999999999,
+            8.22,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        6.3047,
+        15.1551,
+        7.7
+      ],
+      "to": [
+        7.476,
+        15.7635,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.523999295654296,
+            0.23646391493285002,
+            9.695268557084368,
+            0.8448895464921495
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            6.3047314429156325,
+            0.23646391493285002,
+            7.476000704345705,
+            0.8448895464921495
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            0.23646391493285002,
+            8.3,
+            0.8448895464921495
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            0.23646391493285002,
+            8.3,
+            0.8448895464921495
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            6.3047314429156325,
+            7.7,
+            7.476000704345705,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            6.3047314429156325,
+            7.699999999999999,
+            7.476000704345705,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        5.5987,
+        14.8776,
+        7.7
+      ],
+      "to": [
+        6.7447,
+        15.5951,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.255268557084367,
+            0.40488954649214826,
+            10.40129556448101,
+            1.1223950854255076
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            5.59870443551899,
+            0.40488954649214826,
+            6.744731442915632,
+            1.1223950854255076
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            0.40488954649214826,
+            8.3,
+            1.1223950854255076
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            0.40488954649214826,
+            8.3,
+            1.1223950854255076
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            5.59870443551899,
+            7.7,
+            6.744731442915632,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            5.59870443551899,
+            7.699999999999999,
+            6.744731442915632,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        4.93,
+        14.4958,
+        7.7
+      ],
+      "to": [
+        6.0387,
+        15.3176,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.96129556448101,
+            0.6823950854255063,
+            11.069999999999999,
+            1.5042323350227047
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            4.9300000000000015,
+            0.6823950854255063,
+            6.03870443551899,
+            1.5042323350227047
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            0.6823950854255063,
+            8.3,
+            1.5042323350227047
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            0.6823950854255063,
+            8.3,
+            1.5042323350227047
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            4.9300000000000015,
+            7.7,
+            6.03870443551899,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            4.9300000000000015,
+            7.699999999999999,
+            6.03870443551899,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        4.3101,
+        14.0161,
+        7.7
+      ],
+      "to": [
+        5.37,
+        14.9358,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.629999999999999,
+            1.0642323350227034,
+            11.689940145349707,
+            1.9838679540778497
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            4.310059854650293,
+            1.0642323350227034,
+            5.370000000000001,
+            1.9838679540778497
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            1.0642323350227034,
+            8.3,
+            1.9838679540778497
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            1.0642323350227034,
+            8.3,
+            1.9838679540778497
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            4.310059854650293,
+            7.7,
+            5.370000000000001,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            4.310059854650293,
+            7.699999999999999,
+            5.370000000000001,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        3.7495,
+        13.4469,
+        7.7
+      ],
+      "to": [
+        4.7501,
+        14.4561,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.249940145349708,
+            1.5438679540778484,
+            12.25050865276332,
+            2.5530952441687873
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            3.749491347236679,
+            1.5438679540778484,
+            4.750059854650292,
+            2.5530952441687873
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            1.5438679540778484,
+            8.3,
+            2.5530952441687873
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            1.5438679540778484,
+            8.3,
+            2.5530952441687873
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            3.749491347236679,
+            7.7,
+            4.750059854650292,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            3.749491347236679,
+            7.699999999999999,
+            4.750059854650292,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        3.2579,
+        12.7978,
+        7.7
+      ],
+      "to": [
+        4.1895,
+        13.8869,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.810508652763321,
+            2.113095244168786,
+            12.74211403966004,
+            3.2021745685424428
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            3.25788596033996,
+            2.113095244168786,
+            4.189491347236679,
+            3.2021745685424428
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            2.113095244168786,
+            8.3,
+            3.2021745685424428
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            2.113095244168786,
+            8.3,
+            3.2021745685424428
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            3.25788596033996,
+            7.7,
+            4.189491347236679,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            3.25788596033996,
+            7.699999999999999,
+            4.189491347236679,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        2.8437,
+        12.08,
+        7.7
+      ],
+      "to": [
+        3.6979,
+        13.2378,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.30211403966004,
+            2.7621745685424415,
+            13.1563448015713,
+            3.9200000000000017
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            2.843655198428699,
+            2.7621745685424415,
+            3.6978859603399603,
+            3.9200000000000017
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            2.7621745685424415,
+            8.3,
+            3.9200000000000017
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            2.7621745685424415,
+            8.3,
+            3.9200000000000017
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            2.843655198428699,
+            7.7,
+            3.6978859603399603,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            2.843655198428699,
+            7.699999999999999,
+            3.6978859603399603,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        2.5139,
+        11.3057,
+        7.7
+      ],
+      "to": [
+        3.2837,
+        12.52,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.716344801571301,
+            3.4800000000000004,
+            13.486113335314334,
+            4.694289346390407
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            2.5138866646856655,
+            3.4800000000000004,
+            3.2836551984286992,
+            4.694289346390407
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            3.4800000000000004,
+            8.3,
+            4.694289346390407
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            3.4800000000000004,
+            8.3,
+            4.694289346390407
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            2.5138866646856655,
+            7.7,
+            3.2836551984286992,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            2.5138866646856655,
+            7.699999999999999,
+            3.2836551984286992,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        2.2742,
+        10.4882,
+        7.7
+      ],
+      "to": [
+        2.9539,
+        11.7457,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.046113335314335,
+            4.254289346390406,
+            13.725777209847688,
+            5.511794302323361
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            2.274222790152311,
+            4.254289346390406,
+            2.953886664685666,
+            5.511794302323361
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            4.254289346390406,
+            8.3,
+            5.511794302323361
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            4.254289346390406,
+            8.3,
+            5.511794302323361
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            2.274222790152311,
+            7.7,
+            2.953886664685666,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            2.274222790152311,
+            7.699999999999999,
+            2.953886664685666,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        2.1288,
+        9.6415,
+        7.7
+      ],
+      "to": [
+        2.7142,
+        10.9282,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.285777209847689,
+            5.07179430232336,
+            13.871235709830719,
+            6.358527131347657
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            2.1287642901692805,
+            5.07179430232336,
+            2.7142227901523115,
+            6.358527131347657
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            5.07179430232336,
+            8.3,
+            6.358527131347657
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            5.07179430232336,
+            8.3,
+            6.358527131347657
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            2.1287642901692805,
+            7.7,
+            2.7142227901523115,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            2.1287642901692805,
+            7.699999999999999,
+            2.7142227901523115,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Arched brass handle",
+      "from": [
+        2.08,
+        8.78,
+        7.7
+      ],
+      "to": [
+        2.5688,
+        10.0815,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.43123570983072,
+            5.9185271313476555,
+            13.92,
+            7.220000000000001
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            2.0799999999999996,
+            5.9185271313476555,
+            2.568764290169281,
+            7.220000000000001
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.699999999999999,
+            5.9185271313476555,
+            8.3,
+            7.220000000000001
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.7,
+            5.9185271313476555,
+            8.3,
+            7.220000000000001
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            2.0799999999999996,
+            7.7,
+            2.568764290169281,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            2.0799999999999996,
+            7.699999999999999,
+            2.568764290169281,
+            8.3
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Handle hinge",
+      "from": [
+        2.2,
+        7.5,
+        7.3
+      ],
+      "to": [
+        3.2,
+        9.2,
+        8.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.8,
+            6.800000000000001,
+            13.8,
+            8.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            2.2,
+            6.800000000000001,
+            3.2,
+            8.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.300000000000001,
+            6.800000000000001,
+            8.7,
+            8.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.3,
+            6.800000000000001,
+            8.7,
+            8.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            2.2,
+            7.3,
+            3.2,
+            8.7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            2.2,
+            7.300000000000001,
+            3.2,
+            8.7
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Handle hinge",
+      "from": [
+        12.8,
+        7.5,
+        7.3
+      ],
+      "to": [
+        13.8,
+        9.2,
+        8.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.1999999999999993,
+            6.800000000000001,
+            3.1999999999999993,
+            8.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            12.8,
+            6.800000000000001,
+            13.8,
+            8.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "east": {
+          "uv": [
+            7.300000000000001,
+            6.800000000000001,
+            8.7,
+            8.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            7.3,
+            6.800000000000001,
+            8.7,
+            8.5
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            12.8,
+            7.3,
+            13.8,
+            8.7
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            12.8,
+            7.300000000000001,
+            13.8,
+            8.7
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        3.9836,
+        2.0,
+        4.052
+      ],
+      "to": [
+        5.0236,
+        2.4,
+        4.892
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.976435751737851,
+            13.6,
+            12.016435751737852,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            3.9835642482621485,
+            13.6,
+            5.023564248262149,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            11.108029172101224,
+            13.6,
+            11.948029172101224,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            4.051970827898776,
+            13.6,
+            4.891970827898776,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            3.9835642482621485,
+            4.051970827898776,
+            5.023564248262149,
+            4.891970827898776
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            3.9835642482621485,
+            11.108029172101224,
+            5.023564248262149,
+            11.948029172101224
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        4.1236,
+        2.4,
+        4.152
+      ],
+      "to": [
+        4.8836,
+        2.9,
+        4.792
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.116435751737852,
+            13.1,
+            11.876435751737851,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            4.123564248262149,
+            13.1,
+            4.883564248262148,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            11.208029172101224,
+            13.1,
+            11.848029172101224,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            4.151970827898776,
+            13.1,
+            4.791970827898776,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            4.123564248262149,
+            4.151970827898776,
+            4.883564248262148,
+            4.791970827898776
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            4.123564248262149,
+            11.208029172101224,
+            4.883564248262148,
+            11.848029172101224
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.3236,
+        2.9,
+        4.282
+      ],
+      "to": [
+        4.6836,
+        3.22,
+        4.662
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.316435751737853,
+            12.780000000000001,
+            11.676435751737852,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.323564248262149,
+            12.780000000000001,
+            4.683564248262148,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.338029172101223,
+            12.780000000000001,
+            11.718029172101225,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.281970827898776,
+            12.780000000000001,
+            4.661970827898776,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.323564248262149,
+            4.281970827898776,
+            4.683564248262148,
+            4.661970827898776
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.323564248262149,
+            11.338029172101223,
+            4.683564248262148,
+            11.718029172101225
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        7.0148,
+        2.0,
+        4.0105
+      ],
+      "to": [
+        8.0548,
+        2.4,
+        4.8505
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.945217504509399,
+            13.6,
+            8.985217504509398,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            7.014782495490602,
+            13.6,
+            8.0547824954906,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            11.14946747237925,
+            13.6,
+            11.98946747237925,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            4.010532527620749,
+            13.6,
+            4.850532527620749,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            7.014782495490602,
+            4.010532527620749,
+            8.0547824954906,
+            4.850532527620749
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            7.014782495490602,
+            11.14946747237925,
+            8.0547824954906,
+            11.98946747237925
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        7.1548,
+        2.4,
+        4.1105
+      ],
+      "to": [
+        7.9148,
+        2.9,
+        4.7505
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.085217504509398,
+            13.1,
+            8.8452175045094,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            7.154782495490601,
+            13.1,
+            7.914782495490601,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            11.249467472379251,
+            13.1,
+            11.889467472379252,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            4.110532527620749,
+            13.1,
+            4.7505325276207495,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            7.154782495490601,
+            4.110532527620749,
+            7.914782495490601,
+            4.7505325276207495
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            7.154782495490601,
+            11.249467472379251,
+            7.914782495490601,
+            11.889467472379252
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.3548,
+        2.9,
+        4.2405
+      ],
+      "to": [
+        7.7148,
+        3.22,
+        4.6205
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.285217504509399,
+            12.780000000000001,
+            8.645217504509398,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.354782495490602,
+            12.780000000000001,
+            7.714782495490601,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.37946747237925,
+            12.780000000000001,
+            11.759467472379251,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.240532527620749,
+            12.780000000000001,
+            4.62053252762075,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.354782495490602,
+            4.240532527620749,
+            7.714782495490601,
+            4.62053252762075
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.354782495490602,
+            11.37946747237925,
+            7.714782495490601,
+            11.759467472379251
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        10.1807,
+        2.0,
+        3.8756
+      ],
+      "to": [
+        11.2207,
+        2.4,
+        4.7156
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.779287317615665,
+            13.6,
+            5.8192873176156645,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            10.180712682384335,
+            13.6,
+            11.220712682384335,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            11.284354745974316,
+            13.6,
+            12.124354745974316,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            3.8756452540256845,
+            13.6,
+            4.715645254025684,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            10.180712682384335,
+            3.8756452540256845,
+            11.220712682384335,
+            4.715645254025684
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            10.180712682384335,
+            11.284354745974316,
+            11.220712682384335,
+            12.124354745974316
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        10.3207,
+        2.4,
+        3.9756
+      ],
+      "to": [
+        11.0807,
+        2.9,
+        4.6156
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.919287317615664,
+            13.1,
+            5.679287317615666,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            10.320712682384334,
+            13.1,
+            11.080712682384336,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            11.384354745974315,
+            13.1,
+            12.024354745974316,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            3.9756452540256846,
+            13.1,
+            4.615645254025685,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            10.320712682384334,
+            3.9756452540256846,
+            11.080712682384336,
+            4.615645254025685
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            10.320712682384334,
+            11.384354745974315,
+            11.080712682384336,
+            12.024354745974316
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.5207,
+        2.9,
+        4.1056
+      ],
+      "to": [
+        10.8807,
+        3.22,
+        4.4856
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.119287317615665,
+            12.780000000000001,
+            5.479287317615665,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.520712682384335,
+            12.780000000000001,
+            10.880712682384335,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.514354745974316,
+            12.780000000000001,
+            11.894354745974315,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.105645254025684,
+            12.780000000000001,
+            4.485645254025685,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.520712682384335,
+            4.105645254025684,
+            10.880712682384335,
+            4.485645254025685
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.520712682384335,
+            11.514354745974316,
+            10.880712682384335,
+            11.894354745974315
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        3.9502,
+        2.0,
+        7.2378
+      ],
+      "to": [
+        4.9902,
+        2.4,
+        8.0778
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.009797394546107,
+            13.6,
+            12.049797394546108,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            3.950202605453893,
+            13.6,
+            4.990202605453893,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            7.922241201508289,
+            13.6,
+            8.762241201508289,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            7.237758798491711,
+            13.6,
+            8.077758798491711,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            3.950202605453893,
+            7.237758798491711,
+            4.990202605453893,
+            8.077758798491711
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            3.950202605453893,
+            7.922241201508289,
+            4.990202605453893,
+            8.762241201508289
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        4.0902,
+        2.4,
+        7.3378
+      ],
+      "to": [
+        4.8502,
+        2.9,
+        7.9778
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.149797394546107,
+            13.1,
+            11.909797394546107,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            4.090202605453893,
+            13.1,
+            4.850202605453893,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            8.022241201508288,
+            13.1,
+            8.662241201508289,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            7.337758798491711,
+            13.1,
+            7.9777587984917115,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            4.090202605453893,
+            7.337758798491711,
+            4.850202605453893,
+            7.9777587984917115
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            4.090202605453893,
+            8.022241201508288,
+            4.850202605453893,
+            8.662241201508289
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.2902,
+        2.9,
+        7.4678
+      ],
+      "to": [
+        4.6502,
+        3.22,
+        7.8478
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.349797394546108,
+            12.780000000000001,
+            11.709797394546108,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.290202605453893,
+            12.780000000000001,
+            4.6502026054538925,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.15224120150829,
+            12.780000000000001,
+            8.532241201508288,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.467758798491711,
+            12.780000000000001,
+            7.847758798491712,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.290202605453893,
+            7.467758798491711,
+            4.6502026054538925,
+            7.847758798491712
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.290202605453893,
+            8.15224120150829,
+            4.6502026054538925,
+            8.532241201508288
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        7.0437,
+        2.0,
+        7.3235
+      ],
+      "to": [
+        8.0837,
+        2.4,
+        8.1635
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.916343924694807,
+            13.6,
+            8.956343924694808,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            7.043656075305192,
+            13.6,
+            8.083656075305193,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            7.836476363612039,
+            13.6,
+            8.67647636361204,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            7.323523636387961,
+            13.6,
+            8.16352363638796,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            7.043656075305192,
+            7.323523636387961,
+            8.083656075305193,
+            8.16352363638796
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            7.043656075305192,
+            7.836476363612039,
+            8.083656075305193,
+            8.67647636361204
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        7.1837,
+        2.4,
+        7.4235
+      ],
+      "to": [
+        7.9437,
+        2.9,
+        8.0635
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.056343924694808,
+            13.1,
+            8.816343924694808,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            7.183656075305192,
+            13.1,
+            7.943656075305192,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            7.936476363612039,
+            13.1,
+            8.57647636361204,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            7.42352363638796,
+            13.1,
+            8.063523636387961,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            7.183656075305192,
+            7.42352363638796,
+            7.943656075305192,
+            8.063523636387961
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            7.183656075305192,
+            7.936476363612039,
+            7.943656075305192,
+            8.57647636361204
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.3837,
+        2.9,
+        7.5535
+      ],
+      "to": [
+        7.7437,
+        3.22,
+        7.9335
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.256343924694807,
+            12.780000000000001,
+            8.616343924694807,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.3836560753051925,
+            12.780000000000001,
+            7.743656075305192,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.06647636361204,
+            12.780000000000001,
+            8.446476363612039,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.55352363638796,
+            12.780000000000001,
+            7.933523636387961,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.3836560753051925,
+            7.55352363638796,
+            7.743656075305192,
+            7.933523636387961
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.3836560753051925,
+            8.06647636361204,
+            7.743656075305192,
+            8.446476363612039
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        9.8532,
+        2.0,
+        6.9947
+      ],
+      "to": [
+        10.8932,
+        2.4,
+        7.8347
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.10679297899957,
+            13.6,
+            6.146792978999569,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            9.853207021000431,
+            13.6,
+            10.89320702100043,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            8.165265934966836,
+            13.6,
+            9.005265934966836,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            6.994734065033164,
+            13.6,
+            7.834734065033164,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            9.853207021000431,
+            6.994734065033164,
+            10.89320702100043,
+            7.834734065033164
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            9.853207021000431,
+            8.165265934966836,
+            10.89320702100043,
+            9.005265934966836
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        9.9932,
+        2.4,
+        7.0947
+      ],
+      "to": [
+        10.7532,
+        2.9,
+        7.7347
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.246792978999569,
+            13.1,
+            6.00679297899957,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            9.99320702100043,
+            13.1,
+            10.753207021000431,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            8.265265934966836,
+            13.1,
+            8.905265934966836,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            7.094734065033164,
+            13.1,
+            7.734734065033164,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            9.99320702100043,
+            7.094734065033164,
+            10.753207021000431,
+            7.734734065033164
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            9.99320702100043,
+            8.265265934966836,
+            10.753207021000431,
+            8.905265934966836
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.1932,
+        2.9,
+        7.2247
+      ],
+      "to": [
+        10.5532,
+        3.22,
+        7.6047
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.44679297899957,
+            12.780000000000001,
+            5.806792978999569,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.19320702100043,
+            12.780000000000001,
+            10.55320702100043,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.395265934966837,
+            12.780000000000001,
+            8.775265934966836,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.2247340650331635,
+            12.780000000000001,
+            7.604734065033164,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.19320702100043,
+            7.2247340650331635,
+            10.55320702100043,
+            7.604734065033164
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.19320702100043,
+            8.395265934966837,
+            10.55320702100043,
+            8.775265934966836
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        3.8628,
+        2.0,
+        9.8593
+      ],
+      "to": [
+        4.9028,
+        2.4,
+        10.6993
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.097155793238214,
+            13.6,
+            12.137155793238215,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            3.862844206761786,
+            13.6,
+            4.902844206761786,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            5.300657103047071,
+            13.6,
+            6.1406571030470705,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            9.85934289695293,
+            13.6,
+            10.69934289695293,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            3.862844206761786,
+            9.85934289695293,
+            4.902844206761786,
+            10.69934289695293
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            3.862844206761786,
+            5.300657103047071,
+            4.902844206761786,
+            6.1406571030470705
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        4.0028,
+        2.4,
+        9.9593
+      ],
+      "to": [
+        4.7628,
+        2.9,
+        10.5993
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.237155793238214,
+            13.1,
+            11.997155793238214,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            4.002844206761786,
+            13.1,
+            4.762844206761786,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            5.40065710304707,
+            13.1,
+            6.040657103047071,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            9.95934289695293,
+            13.1,
+            10.59934289695293,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            4.002844206761786,
+            9.95934289695293,
+            4.762844206761786,
+            10.59934289695293
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            4.002844206761786,
+            5.40065710304707,
+            4.762844206761786,
+            6.040657103047071
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.2028,
+        2.9,
+        10.0893
+      ],
+      "to": [
+        4.5628,
+        3.22,
+        10.4693
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.437155793238215,
+            12.780000000000001,
+            11.797155793238215,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.202844206761786,
+            12.780000000000001,
+            4.562844206761786,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.530657103047071,
+            12.780000000000001,
+            5.91065710304707,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.08934289695293,
+            12.780000000000001,
+            10.469342896952929,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.202844206761786,
+            10.08934289695293,
+            4.562844206761786,
+            10.469342896952929
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.202844206761786,
+            5.530657103047071,
+            4.562844206761786,
+            5.91065710304707
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        6.7252,
+        2.0,
+        10.0884
+      ],
+      "to": [
+        7.7652,
+        2.4,
+        10.9284
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.23479894334804,
+            13.6,
+            9.27479894334804,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            6.72520105665196,
+            13.6,
+            7.765201056651961,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            5.071642635686635,
+            13.6,
+            5.9116426356866345,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            10.088357364313365,
+            13.6,
+            10.928357364313365,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            6.72520105665196,
+            10.088357364313365,
+            7.765201056651961,
+            10.928357364313365
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            6.72520105665196,
+            5.071642635686635,
+            7.765201056651961,
+            5.9116426356866345
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        6.8652,
+        2.4,
+        10.1884
+      ],
+      "to": [
+        7.6252,
+        2.9,
+        10.8284
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.37479894334804,
+            13.1,
+            9.13479894334804,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            6.86520105665196,
+            13.1,
+            7.62520105665196,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            5.171642635686634,
+            13.1,
+            5.811642635686635,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            10.188357364313365,
+            13.1,
+            10.828357364313366,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            6.86520105665196,
+            10.188357364313365,
+            7.62520105665196,
+            10.828357364313366
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            6.86520105665196,
+            5.171642635686634,
+            7.62520105665196,
+            5.811642635686635
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.0652,
+        2.9,
+        10.3184
+      ],
+      "to": [
+        7.4252,
+        3.22,
+        10.6984
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.57479894334804,
+            12.780000000000001,
+            8.934798943348039,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.0652010566519605,
+            12.780000000000001,
+            7.42520105665196,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.301642635686635,
+            12.780000000000001,
+            5.681642635686634,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.318357364313366,
+            12.780000000000001,
+            10.698357364313365,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.0652010566519605,
+            10.318357364313366,
+            7.42520105665196,
+            10.698357364313365
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.0652010566519605,
+            5.301642635686635,
+            7.42520105665196,
+            5.681642635686634
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        9.8587,
+        2.0,
+        10.1279
+      ],
+      "to": [
+        10.8987,
+        2.4,
+        10.9679
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.101255218050385,
+            13.6,
+            6.141255218050384,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            9.858744781949616,
+            13.6,
+            10.898744781949615,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            5.032082597200324,
+            13.6,
+            5.872082597200324,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            10.127917402799676,
+            13.6,
+            10.967917402799676,
+            14.0
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            9.858744781949616,
+            10.127917402799676,
+            10.898744781949615,
+            10.967917402799676
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            9.858744781949616,
+            5.032082597200324,
+            10.898744781949615,
+            5.872082597200324
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        9.9987,
+        2.4,
+        10.2279
+      ],
+      "to": [
+        10.7587,
+        2.9,
+        10.8679
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.241255218050384,
+            13.1,
+            6.001255218050385,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            9.998744781949615,
+            13.1,
+            10.758744781949616,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            5.1320825972003234,
+            13.1,
+            5.772082597200324,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            10.227917402799676,
+            13.1,
+            10.867917402799677,
+            13.6
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            9.998744781949615,
+            10.227917402799676,
+            10.758744781949616,
+            10.867917402799677
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            9.998744781949615,
+            5.1320825972003234,
+            10.758744781949616,
+            5.772082597200324
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.1987,
+        2.9,
+        10.3579
+      ],
+      "to": [
+        10.5587,
+        3.22,
+        10.7379
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.441255218050385,
+            12.780000000000001,
+            5.801255218050384,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.198744781949616,
+            12.780000000000001,
+            10.558744781949615,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.262082597200324,
+            12.780000000000001,
+            5.642082597200323,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.357917402799677,
+            12.780000000000001,
+            10.737917402799676,
+            13.1
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.198744781949616,
+            10.357917402799677,
+            10.558744781949615,
+            10.737917402799676
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.198744781949616,
+            5.262082597200324,
+            10.558744781949615,
+            5.642082597200323
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        4.2566,
+        4.3,
+        4.3768
+      ],
+      "to": [
+        5.2966,
+        4.7,
+        5.2168
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.703372361750656,
+            11.3,
+            11.743372361750657,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            4.256627638249343,
+            11.3,
+            5.296627638249344,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            10.783175396360026,
+            11.3,
+            11.623175396360026,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            4.376824603639974,
+            11.3,
+            5.2168246036399735,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            4.256627638249343,
+            4.376824603639974,
+            5.296627638249344,
+            5.2168246036399735
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            4.256627638249343,
+            10.783175396360026,
+            5.296627638249344,
+            11.623175396360026
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        4.3966,
+        4.7,
+        4.4768
+      ],
+      "to": [
+        5.1566,
+        5.2,
+        5.1168
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.843372361750657,
+            10.8,
+            11.603372361750656,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            4.396627638249344,
+            10.8,
+            5.1566276382493434,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            10.883175396360027,
+            10.8,
+            11.523175396360028,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            4.476824603639973,
+            10.8,
+            5.116824603639974,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            4.396627638249344,
+            4.476824603639973,
+            5.1566276382493434,
+            5.116824603639974
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            4.396627638249344,
+            10.883175396360027,
+            5.1566276382493434,
+            11.523175396360028
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.5966,
+        5.2,
+        4.6068
+      ],
+      "to": [
+        4.9566,
+        5.52,
+        4.9868
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.043372361750656,
+            10.48,
+            11.403372361750655,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.596627638249344,
+            10.48,
+            4.956627638249343,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.013175396360026,
+            10.48,
+            11.393175396360027,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.606824603639973,
+            10.48,
+            4.986824603639974,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.596627638249344,
+            4.606824603639973,
+            4.956627638249343,
+            4.986824603639974
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.596627638249344,
+            11.013175396360026,
+            4.956627638249343,
+            11.393175396360027
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        7.1472,
+        4.3,
+        3.9786
+      ],
+      "to": [
+        8.1872,
+        4.7,
+        4.8186
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.812826035984253,
+            11.3,
+            8.852826035984252,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            7.147173964015748,
+            11.3,
+            8.187173964015747,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            11.181378049620065,
+            11.3,
+            12.021378049620065,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            3.978621950379935,
+            11.3,
+            4.818621950379935,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            7.147173964015748,
+            3.978621950379935,
+            8.187173964015747,
+            4.818621950379935
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            7.147173964015748,
+            11.181378049620065,
+            8.187173964015747,
+            12.021378049620065
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        7.2872,
+        4.7,
+        4.0786
+      ],
+      "to": [
+        8.0472,
+        5.2,
+        4.7186
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.952826035984252,
+            10.8,
+            8.712826035984254,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            7.287173964015747,
+            10.8,
+            8.047173964015748,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            11.281378049620065,
+            10.8,
+            11.921378049620065,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            4.078621950379935,
+            10.8,
+            4.718621950379935,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            7.287173964015747,
+            4.078621950379935,
+            8.047173964015748,
+            4.718621950379935
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            7.287173964015747,
+            11.281378049620065,
+            8.047173964015748,
+            11.921378049620065
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.4872,
+        5.2,
+        4.2086
+      ],
+      "to": [
+        7.8472,
+        5.52,
+        4.5886
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.152826035984253,
+            10.48,
+            8.512826035984252,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.4871739640157475,
+            10.48,
+            7.847173964015747,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.411378049620065,
+            10.48,
+            11.791378049620064,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.208621950379935,
+            10.48,
+            4.5886219503799355,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.4871739640157475,
+            4.208621950379935,
+            7.847173964015747,
+            4.5886219503799355
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.4871739640157475,
+            11.411378049620065,
+            7.847173964015747,
+            11.791378049620064
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        9.9103,
+        4.3,
+        4.3192
+      ],
+      "to": [
+        10.9503,
+        4.7,
+        5.1592
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.049653593497318,
+            11.3,
+            6.089653593497317,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            9.910346406502683,
+            11.3,
+            10.950346406502682,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            10.840832926161175,
+            11.3,
+            11.680832926161175,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            4.319167073838825,
+            11.3,
+            5.159167073838825,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            9.910346406502683,
+            4.319167073838825,
+            10.950346406502682,
+            5.159167073838825
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            9.910346406502683,
+            10.840832926161175,
+            10.950346406502682,
+            11.680832926161175
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        10.0503,
+        4.7,
+        4.4192
+      ],
+      "to": [
+        10.8103,
+        5.2,
+        5.0592
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.189653593497317,
+            10.8,
+            5.9496535934973185,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            10.050346406502682,
+            10.8,
+            10.810346406502683,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            10.940832926161175,
+            10.8,
+            11.580832926161175,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            4.419167073838825,
+            10.8,
+            5.059167073838825,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            10.050346406502682,
+            4.419167073838825,
+            10.810346406502683,
+            5.059167073838825
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            10.050346406502682,
+            10.940832926161175,
+            10.810346406502683,
+            11.580832926161175
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.2503,
+        5.2,
+        4.5492
+      ],
+      "to": [
+        10.6103,
+        5.52,
+        4.9292
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.389653593497318,
+            10.48,
+            5.749653593497317,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.250346406502683,
+            10.48,
+            10.610346406502682,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.070832926161174,
+            10.48,
+            11.450832926161176,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.549167073838825,
+            10.48,
+            4.929167073838825,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.250346406502683,
+            4.549167073838825,
+            10.610346406502682,
+            4.929167073838825
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.250346406502683,
+            11.070832926161174,
+            10.610346406502682,
+            11.450832926161176
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        3.8204,
+        4.3,
+        7.2744
+      ],
+      "to": [
+        4.8604,
+        4.7,
+        8.1144
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.139645971728886,
+            11.3,
+            12.179645971728885,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            3.820354028271115,
+            11.3,
+            4.860354028271114,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            7.8856191528657185,
+            11.3,
+            8.725619152865718,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            7.274380847134282,
+            11.3,
+            8.114380847134282,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            3.820354028271115,
+            7.274380847134282,
+            4.860354028271114,
+            8.114380847134282
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            3.820354028271115,
+            7.8856191528657185,
+            4.860354028271114,
+            8.725619152865718
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        3.9604,
+        4.7,
+        7.3744
+      ],
+      "to": [
+        4.7204,
+        5.2,
+        8.0144
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.279645971728886,
+            10.8,
+            12.039645971728884,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            3.960354028271115,
+            10.8,
+            4.720354028271115,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            7.985619152865718,
+            10.8,
+            8.625619152865719,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            7.374380847134281,
+            10.8,
+            8.014380847134282,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            3.960354028271115,
+            7.374380847134281,
+            4.720354028271115,
+            8.014380847134282
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            3.960354028271115,
+            7.985619152865718,
+            4.720354028271115,
+            8.625619152865719
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.1604,
+        5.2,
+        7.5044
+      ],
+      "to": [
+        4.5204,
+        5.52,
+        7.8844
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.479645971728885,
+            10.48,
+            11.839645971728885,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.160354028271115,
+            10.48,
+            4.5203540282711145,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.115619152865719,
+            10.48,
+            8.495619152865718,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.504380847134281,
+            10.48,
+            7.884380847134282,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.160354028271115,
+            7.504380847134281,
+            4.5203540282711145,
+            7.884380847134282
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.160354028271115,
+            8.115619152865719,
+            4.5203540282711145,
+            8.495619152865718
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        6.8272,
+        4.3,
+        7.0487
+      ],
+      "to": [
+        7.8672,
+        4.7,
+        7.8887
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.132789673074184,
+            11.3,
+            9.172789673074185,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            6.827210326925815,
+            11.3,
+            7.867210326925816,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            8.111275209704683,
+            11.3,
+            8.951275209704683,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            7.048724790295316,
+            11.3,
+            7.888724790295316,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            6.827210326925815,
+            7.048724790295316,
+            7.867210326925816,
+            7.888724790295316
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            6.827210326925815,
+            8.111275209704683,
+            7.867210326925816,
+            8.951275209704683
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        6.9672,
+        4.7,
+        7.1487
+      ],
+      "to": [
+        7.7272,
+        5.2,
+        7.7887
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.272789673074184,
+            10.8,
+            9.032789673074184,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            6.967210326925816,
+            10.8,
+            7.727210326925816,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            8.211275209704684,
+            10.8,
+            8.851275209704685,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            7.148724790295316,
+            10.8,
+            7.7887247902953165,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            6.967210326925816,
+            7.148724790295316,
+            7.727210326925816,
+            7.7887247902953165
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            6.967210326925816,
+            8.211275209704684,
+            7.727210326925816,
+            8.851275209704685
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.1672,
+        5.2,
+        7.2787
+      ],
+      "to": [
+        7.5272,
+        5.52,
+        7.6587
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.472789673074185,
+            10.48,
+            8.832789673074185,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.167210326925816,
+            10.48,
+            7.5272103269258155,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.341275209704683,
+            10.48,
+            8.721275209704684,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.278724790295316,
+            10.48,
+            7.658724790295317,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.167210326925816,
+            7.278724790295316,
+            7.5272103269258155,
+            7.658724790295317
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.167210326925816,
+            8.341275209704683,
+            7.5272103269258155,
+            8.721275209704684
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        10.0145,
+        4.3,
+        7.3558
+      ],
+      "to": [
+        11.0545,
+        4.7,
+        8.1958
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.94553420015869,
+            11.3,
+            5.985534200158689,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            10.014465799841311,
+            11.3,
+            11.05446579984131,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            7.804216343242613,
+            11.3,
+            8.644216343242613,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            7.355783656757387,
+            11.3,
+            8.195783656757387,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            10.014465799841311,
+            7.355783656757387,
+            11.05446579984131,
+            8.195783656757387
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            10.014465799841311,
+            7.804216343242613,
+            11.05446579984131,
+            8.644216343242613
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        10.1545,
+        4.7,
+        7.4558
+      ],
+      "to": [
+        10.9145,
+        5.2,
+        8.0958
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.085534200158689,
+            10.8,
+            5.84553420015869,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            10.15446579984131,
+            10.8,
+            10.914465799841311,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            7.904216343242613,
+            10.8,
+            8.544216343242613,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            7.4557836567573865,
+            10.8,
+            8.095783656757387,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            10.15446579984131,
+            7.4557836567573865,
+            10.914465799841311,
+            8.095783656757387
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            10.15446579984131,
+            7.904216343242613,
+            10.914465799841311,
+            8.544216343242613
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.3545,
+        5.2,
+        7.5858
+      ],
+      "to": [
+        10.7145,
+        5.52,
+        7.9658
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.28553420015869,
+            10.48,
+            5.645534200158689,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.35446579984131,
+            10.48,
+            10.71446579984131,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.034216343242612,
+            10.48,
+            8.414216343242614,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.585783656757386,
+            10.48,
+            7.965783656757387,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.35446579984131,
+            7.585783656757386,
+            10.71446579984131,
+            7.965783656757387
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.35446579984131,
+            8.034216343242612,
+            10.71446579984131,
+            8.414216343242614
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        4.1189,
+        4.3,
+        10.2837
+      ],
+      "to": [
+        5.1589,
+        4.7,
+        11.1237
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.841070210046922,
+            11.3,
+            11.881070210046923,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            4.118929789953077,
+            11.3,
+            5.158929789953078,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            4.8763057945680846,
+            11.3,
+            5.716305794568084,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            10.283694205431916,
+            11.3,
+            11.123694205431915,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            4.118929789953077,
+            10.283694205431916,
+            5.158929789953078,
+            11.123694205431915
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            4.118929789953077,
+            4.8763057945680846,
+            5.158929789953078,
+            5.716305794568084
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        4.2589,
+        4.7,
+        10.3837
+      ],
+      "to": [
+        5.0189,
+        5.2,
+        11.0237
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.981070210046923,
+            10.8,
+            11.741070210046923,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            4.258929789953077,
+            10.8,
+            5.018929789953077,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            4.976305794568084,
+            10.8,
+            5.616305794568085,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            10.383694205431915,
+            10.8,
+            11.023694205431916,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            4.258929789953077,
+            10.383694205431915,
+            5.018929789953077,
+            11.023694205431916
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            4.258929789953077,
+            4.976305794568084,
+            5.018929789953077,
+            5.616305794568085
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.4589,
+        5.2,
+        10.5137
+      ],
+      "to": [
+        4.8189,
+        5.52,
+        10.8937
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.181070210046922,
+            10.48,
+            11.541070210046922,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.4589297899530775,
+            10.48,
+            4.818929789953077,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.106305794568085,
+            10.48,
+            5.486305794568084,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.513694205431916,
+            10.48,
+            10.893694205431915,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.4589297899530775,
+            10.513694205431916,
+            4.818929789953077,
+            10.893694205431915
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.4589297899530775,
+            5.106305794568085,
+            4.818929789953077,
+            5.486305794568084
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        6.8896,
+        4.3,
+        9.9896
+      ],
+      "to": [
+        7.9296,
+        4.7,
+        10.8296
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.07039565939662,
+            11.3,
+            9.11039565939662,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            6.8896043406033805,
+            11.3,
+            7.92960434060338,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            5.170424137977443,
+            11.3,
+            6.010424137977443,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            9.989575862022557,
+            11.3,
+            10.829575862022557,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            6.8896043406033805,
+            9.989575862022557,
+            7.92960434060338,
+            10.829575862022557
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            6.8896043406033805,
+            5.170424137977443,
+            7.92960434060338,
+            6.010424137977443
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        7.0296,
+        4.7,
+        10.0896
+      ],
+      "to": [
+        7.7896,
+        5.2,
+        10.7296
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.210395659396621,
+            10.8,
+            8.970395659396619,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            7.02960434060338,
+            10.8,
+            7.78960434060338,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            5.270424137977443,
+            10.8,
+            5.910424137977444,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            10.089575862022556,
+            10.8,
+            10.729575862022557,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            7.02960434060338,
+            10.089575862022556,
+            7.78960434060338,
+            10.729575862022557
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            7.02960434060338,
+            5.270424137977443,
+            7.78960434060338,
+            5.910424137977444
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.2296,
+        5.2,
+        10.2196
+      ],
+      "to": [
+        7.5896,
+        5.52,
+        10.5996
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.41039565939662,
+            10.48,
+            8.77039565939662,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.22960434060338,
+            10.48,
+            7.58960434060338,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.400424137977444,
+            10.48,
+            5.780424137977443,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.219575862022557,
+            10.48,
+            10.599575862022556,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.22960434060338,
+            10.219575862022557,
+            7.58960434060338,
+            10.599575862022556
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.22960434060338,
+            5.400424137977444,
+            7.58960434060338,
+            5.780424137977443
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        10.202,
+        4.3,
+        10.1311
+      ],
+      "to": [
+        11.242,
+        4.7,
+        10.9711
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.758034381832914,
+            11.3,
+            5.798034381832913,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            10.201965618167087,
+            11.3,
+            11.241965618167086,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            5.028897631401513,
+            11.3,
+            5.868897631401513,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            10.131102368598487,
+            11.3,
+            10.971102368598487,
+            11.7
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            10.201965618167087,
+            10.131102368598487,
+            11.241965618167086,
+            10.971102368598487
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            10.201965618167087,
+            5.028897631401513,
+            11.241965618167086,
+            5.868897631401513
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        10.342,
+        4.7,
+        10.2311
+      ],
+      "to": [
+        11.102,
+        5.2,
+        10.8711
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.898034381832913,
+            10.8,
+            5.658034381832914,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            10.341965618167086,
+            10.8,
+            11.101965618167087,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            5.128897631401513,
+            10.8,
+            5.768897631401513,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            10.231102368598487,
+            10.8,
+            10.871102368598487,
+            11.3
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            10.341965618167086,
+            10.231102368598487,
+            11.101965618167087,
+            10.871102368598487
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            10.341965618167086,
+            5.128897631401513,
+            11.101965618167087,
+            5.768897631401513
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.542,
+        5.2,
+        10.3611
+      ],
+      "to": [
+        10.902,
+        5.52,
+        10.7411
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.098034381832914,
+            10.48,
+            5.458034381832913,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.541965618167087,
+            10.48,
+            10.901965618167086,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.2588976314015135,
+            10.48,
+            5.6388976314015125,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.361102368598488,
+            10.48,
+            10.741102368598487,
+            10.8
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.541965618167087,
+            10.361102368598488,
+            10.901965618167086,
+            10.741102368598487
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.541965618167087,
+            5.2588976314015135,
+            10.901965618167086,
+            5.6388976314015125
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        4.1117,
+        6.6,
+        3.8389
+      ],
+      "to": [
+        5.1517,
+        7.0,
+        4.6789
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.848287869786942,
+            9.0,
+            11.888287869786941,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            4.111712130213059,
+            9.0,
+            5.151712130213058,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            11.321073852048018,
+            9.0,
+            12.161073852048018,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            3.838926147951982,
+            9.0,
+            4.678926147951982,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            4.111712130213059,
+            3.838926147951982,
+            5.151712130213058,
+            4.678926147951982
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            4.111712130213059,
+            11.321073852048018,
+            5.151712130213058,
+            12.161073852048018
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        4.2517,
+        7.0,
+        3.9389
+      ],
+      "to": [
+        5.0117,
+        7.5,
+        4.5789
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.98828786978694,
+            8.5,
+            11.748287869786942,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            4.2517121302130585,
+            8.5,
+            5.011712130213058,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            11.421073852048018,
+            8.5,
+            12.061073852048018,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            3.938926147951982,
+            8.5,
+            4.578926147951982,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            4.2517121302130585,
+            3.938926147951982,
+            5.011712130213058,
+            4.578926147951982
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            4.2517121302130585,
+            11.421073852048018,
+            5.011712130213058,
+            12.061073852048018
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.4517,
+        7.5,
+        4.0689
+      ],
+      "to": [
+        4.8117,
+        7.82,
+        4.4489
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.188287869786942,
+            8.18,
+            11.548287869786941,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.451712130213059,
+            8.18,
+            4.811712130213058,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.551073852048017,
+            8.18,
+            11.93107385204802,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.068926147951982,
+            8.18,
+            4.448926147951982,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.451712130213059,
+            4.068926147951982,
+            4.811712130213058,
+            4.448926147951982
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.451712130213059,
+            11.551073852048017,
+            4.811712130213058,
+            11.93107385204802
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        6.7172,
+        6.6,
+        4.0365
+      ],
+      "to": [
+        7.7572,
+        7.0,
+        4.8765
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.242824525067943,
+            9.0,
+            9.282824525067944,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            6.717175474932056,
+            9.0,
+            7.7571754749320565,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            11.123519079698939,
+            9.0,
+            11.963519079698939,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            4.036480920301061,
+            9.0,
+            4.876480920301061,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            6.717175474932056,
+            4.036480920301061,
+            7.7571754749320565,
+            4.876480920301061
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            6.717175474932056,
+            11.123519079698939,
+            7.7571754749320565,
+            11.963519079698939
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        6.8572,
+        7.0,
+        4.1365
+      ],
+      "to": [
+        7.6172,
+        7.5,
+        4.7765
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.382824525067944,
+            8.5,
+            9.142824525067944,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            6.857175474932056,
+            8.5,
+            7.617175474932056,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            11.223519079698939,
+            8.5,
+            11.86351907969894,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            4.136480920301061,
+            8.5,
+            4.776480920301061,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            6.857175474932056,
+            4.136480920301061,
+            7.617175474932056,
+            4.776480920301061
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            6.857175474932056,
+            11.223519079698939,
+            7.617175474932056,
+            11.86351907969894
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.0572,
+        7.5,
+        4.2665
+      ],
+      "to": [
+        7.4172,
+        7.82,
+        4.6465
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.582824525067945,
+            8.18,
+            8.942824525067945,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.057175474932056,
+            8.18,
+            7.417175474932056,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.353519079698938,
+            8.18,
+            11.73351907969894,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.266480920301061,
+            8.18,
+            4.6464809203010615,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.057175474932056,
+            4.266480920301061,
+            7.417175474932056,
+            4.6464809203010615
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.057175474932056,
+            11.353519079698938,
+            7.417175474932056,
+            11.73351907969894
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        9.8642,
+        6.6,
+        3.9397
+      ],
+      "to": [
+        10.9042,
+        7.0,
+        4.7797
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.09575870123037,
+            9.0,
+            6.135758701230369,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            9.864241298769631,
+            9.0,
+            10.90424129876963,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            11.220326385789672,
+            9.0,
+            12.060326385789672,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            3.939673614210327,
+            9.0,
+            4.779673614210327,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            9.864241298769631,
+            3.939673614210327,
+            10.90424129876963,
+            4.779673614210327
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            9.864241298769631,
+            11.220326385789672,
+            10.90424129876963,
+            12.060326385789672
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        10.0042,
+        7.0,
+        4.0397
+      ],
+      "to": [
+        10.7642,
+        7.5,
+        4.6797
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.235758701230369,
+            8.5,
+            5.99575870123037,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            10.00424129876963,
+            8.5,
+            10.764241298769631,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            11.320326385789674,
+            8.5,
+            11.960326385789674,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            4.039673614210327,
+            8.5,
+            4.679673614210327,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            10.00424129876963,
+            4.039673614210327,
+            10.764241298769631,
+            4.679673614210327
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            10.00424129876963,
+            11.320326385789674,
+            10.764241298769631,
+            11.960326385789674
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.2042,
+        7.5,
+        4.1697
+      ],
+      "to": [
+        10.5642,
+        7.82,
+        4.5497
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.43575870123037,
+            8.18,
+            5.795758701230369,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.204241298769631,
+            8.18,
+            10.56424129876963,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            11.450326385789673,
+            8.18,
+            11.830326385789673,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            4.169673614210327,
+            8.18,
+            4.549673614210327,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.204241298769631,
+            4.169673614210327,
+            10.56424129876963,
+            4.549673614210327
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.204241298769631,
+            11.450326385789673,
+            10.56424129876963,
+            11.830326385789673
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        4.1695,
+        6.6,
+        7.3319
+      ],
+      "to": [
+        5.2095,
+        7.0,
+        8.1719
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.790493116759395,
+            9.0,
+            11.830493116759394,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            4.169506883240606,
+            9.0,
+            5.209506883240605,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            7.8280656242691276,
+            9.0,
+            8.66806562426913,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            7.331934375730872,
+            9.0,
+            8.171934375730872,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            4.169506883240606,
+            7.331934375730872,
+            5.209506883240605,
+            8.171934375730872
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            4.169506883240606,
+            7.8280656242691276,
+            5.209506883240605,
+            8.66806562426913
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        4.3095,
+        7.0,
+        7.4319
+      ],
+      "to": [
+        5.0695,
+        7.5,
+        8.0719
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.930493116759394,
+            8.5,
+            11.690493116759395,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            4.309506883240606,
+            8.5,
+            5.069506883240606,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            7.928065624269129,
+            8.5,
+            8.568065624269128,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            7.431934375730871,
+            8.5,
+            8.071934375730871,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            4.309506883240606,
+            7.431934375730871,
+            5.069506883240606,
+            8.071934375730871
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            4.309506883240606,
+            7.928065624269129,
+            5.069506883240606,
+            8.568065624269128
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.5095,
+        7.5,
+        7.5619
+      ],
+      "to": [
+        4.8695,
+        7.82,
+        7.9419
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.130493116759395,
+            8.18,
+            11.490493116759394,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.509506883240606,
+            8.18,
+            4.869506883240605,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.058065624269128,
+            8.18,
+            8.438065624269129,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.561934375730871,
+            8.18,
+            7.941934375730872,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.509506883240606,
+            7.561934375730871,
+            4.869506883240605,
+            7.941934375730872
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.509506883240606,
+            8.058065624269128,
+            4.869506883240605,
+            8.438065624269129
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        6.8146,
+        6.6,
+        6.8402
+      ],
+      "to": [
+        7.8546,
+        7.0,
+        7.6802
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.145432597119681,
+            9.0,
+            9.18543259711968,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            6.81456740288032,
+            9.0,
+            7.854567402880319,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            8.319803128422144,
+            9.0,
+            9.159803128422144,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            6.840196871577857,
+            9.0,
+            7.680196871577857,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            6.81456740288032,
+            6.840196871577857,
+            7.854567402880319,
+            7.680196871577857
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            6.81456740288032,
+            8.319803128422144,
+            7.854567402880319,
+            9.159803128422144
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        6.9546,
+        7.0,
+        6.9402
+      ],
+      "to": [
+        7.7146,
+        7.5,
+        7.5802
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.28543259711968,
+            8.5,
+            9.045432597119682,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            6.954567402880319,
+            8.5,
+            7.714567402880319,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            8.419803128422142,
+            8.5,
+            9.059803128422143,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            6.940196871577856,
+            8.5,
+            7.580196871577857,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            6.954567402880319,
+            6.940196871577856,
+            7.714567402880319,
+            7.580196871577857
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            6.954567402880319,
+            8.419803128422142,
+            7.714567402880319,
+            9.059803128422143
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.1546,
+        7.5,
+        7.0702
+      ],
+      "to": [
+        7.5146,
+        7.82,
+        7.4502
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.485432597119681,
+            8.18,
+            8.84543259711968,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.1545674028803194,
+            8.18,
+            7.514567402880319,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.549803128422143,
+            8.18,
+            8.929803128422144,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.070196871577856,
+            8.18,
+            7.450196871577857,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.1545674028803194,
+            7.070196871577856,
+            7.514567402880319,
+            7.450196871577857
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.1545674028803194,
+            8.549803128422143,
+            7.514567402880319,
+            8.929803128422144
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        9.7933,
+        6.6,
+        6.8905
+      ],
+      "to": [
+        10.8333,
+        7.0,
+        7.7305
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.1666751173989685,
+            9.0,
+            6.206675117398968,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            9.793324882601032,
+            9.0,
+            10.833324882601032,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            8.269480218482421,
+            9.0,
+            9.109480218482421,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            6.890519781517579,
+            9.0,
+            7.730519781517579,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            9.793324882601032,
+            6.890519781517579,
+            10.833324882601032,
+            7.730519781517579
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            9.793324882601032,
+            8.269480218482421,
+            10.833324882601032,
+            9.109480218482421
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        9.9333,
+        7.0,
+        6.9905
+      ],
+      "to": [
+        10.6933,
+        7.5,
+        7.6305
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.306675117398967,
+            8.5,
+            6.066675117398969,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            9.933324882601031,
+            8.5,
+            10.693324882601033,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            8.36948021848242,
+            8.5,
+            9.009480218482421,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            6.990519781517579,
+            8.5,
+            7.630519781517579,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            9.933324882601031,
+            6.990519781517579,
+            10.693324882601033,
+            7.630519781517579
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            9.933324882601031,
+            8.36948021848242,
+            10.693324882601033,
+            9.009480218482421
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.1333,
+        7.5,
+        7.1205
+      ],
+      "to": [
+        10.4933,
+        7.82,
+        7.5005
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.506675117398968,
+            8.18,
+            5.866675117398968,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.133324882601032,
+            8.18,
+            10.493324882601032,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            8.499480218482422,
+            8.18,
+            8.87948021848242,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            7.1205197815175785,
+            8.18,
+            7.500519781517579,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.133324882601032,
+            7.1205197815175785,
+            10.493324882601032,
+            7.500519781517579
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.133324882601032,
+            8.499480218482422,
+            10.493324882601032,
+            8.87948021848242
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        4.1144,
+        6.6,
+        10.0091
+      ],
+      "to": [
+        5.1544,
+        7.0,
+        10.8491
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.845646924234844,
+            9.0,
+            11.885646924234845,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            4.114353075765155,
+            9.0,
+            5.154353075765156,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            5.150934151780007,
+            9.0,
+            5.9909341517800065,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            10.009065848219993,
+            9.0,
+            10.849065848219993,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            4.114353075765155,
+            10.009065848219993,
+            5.154353075765156,
+            10.849065848219993
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            4.114353075765155,
+            5.150934151780007,
+            5.154353075765156,
+            5.9909341517800065
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        4.2544,
+        7.0,
+        10.1091
+      ],
+      "to": [
+        5.0144,
+        7.5,
+        10.7491
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.985646924234844,
+            8.5,
+            11.745646924234844,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            4.254353075765156,
+            8.5,
+            5.014353075765156,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            5.250934151780006,
+            8.5,
+            5.890934151780007,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            10.109065848219993,
+            8.5,
+            10.749065848219994,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            4.254353075765156,
+            10.109065848219993,
+            5.014353075765156,
+            10.749065848219994
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            4.254353075765156,
+            5.250934151780006,
+            5.014353075765156,
+            5.890934151780007
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        4.4544,
+        7.5,
+        10.2391
+      ],
+      "to": [
+        4.8144,
+        7.82,
+        10.6191
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.185646924234845,
+            8.18,
+            11.545646924234845,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            4.454353075765156,
+            8.18,
+            4.814353075765156,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.380934151780007,
+            8.18,
+            5.760934151780006,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.239065848219994,
+            8.18,
+            10.619065848219993,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            4.454353075765156,
+            10.239065848219994,
+            4.814353075765156,
+            10.619065848219993
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            4.454353075765156,
+            5.380934151780007,
+            4.814353075765156,
+            5.760934151780006
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        7.2672,
+        6.6,
+        9.7912
+      ],
+      "to": [
+        8.3072,
+        7.0,
+        10.6312
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.692839318649829,
+            9.0,
+            8.73283931864983,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            7.26716068135017,
+            9.0,
+            8.30716068135017,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            5.36880274567976,
+            9.0,
+            6.20880274567976,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            9.79119725432024,
+            9.0,
+            10.63119725432024,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            7.26716068135017,
+            9.79119725432024,
+            8.30716068135017,
+            10.63119725432024
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            7.26716068135017,
+            5.36880274567976,
+            8.30716068135017,
+            6.20880274567976
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        7.4072,
+        7.0,
+        9.8912
+      ],
+      "to": [
+        8.1672,
+        7.5,
+        10.5312
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.83283931864983,
+            8.5,
+            8.59283931864983,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            7.40716068135017,
+            8.5,
+            8.16716068135017,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            5.46880274567976,
+            8.5,
+            6.1088027456797604,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            9.89119725432024,
+            8.5,
+            10.53119725432024,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            7.40716068135017,
+            9.89119725432024,
+            8.16716068135017,
+            10.53119725432024
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            7.40716068135017,
+            5.46880274567976,
+            8.16716068135017,
+            6.1088027456797604
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        7.6072,
+        7.5,
+        10.0212
+      ],
+      "to": [
+        7.9672,
+        7.82,
+        10.4012
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.032839318649831,
+            8.18,
+            8.39283931864983,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            7.60716068135017,
+            8.18,
+            7.96716068135017,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.598802745679761,
+            8.18,
+            5.97880274567976,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.02119725432024,
+            8.18,
+            10.40119725432024,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            7.60716068135017,
+            10.02119725432024,
+            7.96716068135017,
+            10.40119725432024
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            7.60716068135017,
+            5.598802745679761,
+            7.96716068135017,
+            5.97880274567976
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    },
+    {
+      "name": "Candy yellow base",
+      "from": [
+        10.0012,
+        6.6,
+        9.8598
+      ],
+      "to": [
+        11.0412,
+        7.0,
+        10.6998
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.9588325376529365,
+            9.0,
+            5.998832537652936,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "south": {
+          "uv": [
+            10.001167462347064,
+            9.0,
+            11.041167462347063,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "east": {
+          "uv": [
+            5.300199126950233,
+            9.0,
+            6.1401991269502325,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "west": {
+          "uv": [
+            9.859800873049767,
+            9.0,
+            10.699800873049767,
+            9.4
+          ],
+          "texture": "#corn_yellow"
+        },
+        "up": {
+          "uv": [
+            10.001167462347064,
+            9.859800873049767,
+            11.041167462347063,
+            10.699800873049767
+          ],
+          "texture": "#corn_yellow"
+        },
+        "down": {
+          "uv": [
+            10.001167462347064,
+            5.300199126950233,
+            11.041167462347063,
+            6.1401991269502325
+          ],
+          "texture": "#corn_yellow"
+        }
+      }
+    },
+    {
+      "name": "Candy orange middle",
+      "from": [
+        10.1412,
+        7.0,
+        9.9598
+      ],
+      "to": [
+        10.9012,
+        7.5,
+        10.5998
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.098832537652935,
+            8.5,
+            5.858832537652937,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "south": {
+          "uv": [
+            10.141167462347063,
+            8.5,
+            10.901167462347065,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "east": {
+          "uv": [
+            5.400199126950232,
+            8.5,
+            6.040199126950233,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "west": {
+          "uv": [
+            9.959800873049767,
+            8.5,
+            10.599800873049768,
+            9.0
+          ],
+          "texture": "#corn_orange"
+        },
+        "up": {
+          "uv": [
+            10.141167462347063,
+            9.959800873049767,
+            10.901167462347065,
+            10.599800873049768
+          ],
+          "texture": "#corn_orange"
+        },
+        "down": {
+          "uv": [
+            10.141167462347063,
+            5.400199126950232,
+            10.901167462347065,
+            6.040199126950233
+          ],
+          "texture": "#corn_orange"
+        }
+      }
+    },
+    {
+      "name": "Candy white tip",
+      "from": [
+        10.3412,
+        7.5,
+        10.0898
+      ],
+      "to": [
+        10.7012,
+        7.82,
+        10.4698
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.298832537652936,
+            8.18,
+            5.658832537652936,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "south": {
+          "uv": [
+            10.341167462347064,
+            8.18,
+            10.701167462347064,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "east": {
+          "uv": [
+            5.530199126950233,
+            8.18,
+            5.910199126950232,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "west": {
+          "uv": [
+            10.089800873049768,
+            8.18,
+            10.469800873049767,
+            8.5
+          ],
+          "texture": "#corn_white"
+        },
+        "up": {
+          "uv": [
+            10.341167462347064,
+            10.089800873049768,
+            10.701167462347064,
+            10.469800873049767
+          ],
+          "texture": "#corn_white"
+        },
+        "down": {
+          "uv": [
+            10.341167462347064,
+            5.530199126950233,
+            10.701167462347064,
+            5.910199126950232
+          ],
+          "texture": "#corn_white"
+        }
+      }
+    }
+  ]
+}

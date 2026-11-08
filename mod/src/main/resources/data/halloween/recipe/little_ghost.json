@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:white_wool",
+    "minecraft:string",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "id": "halloween:little_ghost",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "required": false,
+  "package": "dev.halloween.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "dev.halloween.compat.OptionalIrisPlugin",
+  "client": ["IrisIdMapMixin", "IrisHeldItemMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

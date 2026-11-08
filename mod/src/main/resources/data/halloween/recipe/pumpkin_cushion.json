@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:white_wool",
+    "minecraft:string",
+    "minecraft:orange_dye",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "id": "halloween:pumpkin_cushion",
+    "count": 1
+  }
+}

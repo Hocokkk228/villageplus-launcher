@@ -1,0 +1,244 @@
+{
+  "variants": {
+    "fill=0,motion=0": {
+      "model": "halloween:block/candy_bucket_0_0"
+    },
+    "fill=0,motion=1": {
+      "model": "halloween:block/candy_bucket_0_1"
+    },
+    "fill=0,motion=2": {
+      "model": "halloween:block/candy_bucket_0_2"
+    },
+    "fill=0,motion=3": {
+      "model": "halloween:block/candy_bucket_0_3"
+    },
+    "fill=0,motion=4": {
+      "model": "halloween:block/candy_bucket_0_4"
+    },
+    "fill=0,motion=5": {
+      "model": "halloween:block/candy_bucket_0_5"
+    },
+    "fill=0,motion=6": {
+      "model": "halloween:block/candy_bucket_0_6"
+    },
+    "fill=0,motion=7": {
+      "model": "halloween:block/candy_bucket_0_7"
+    },
+    "fill=0,motion=8": {
+      "model": "halloween:block/candy_bucket_0_8"
+    },
+    "fill=0,motion=9": {
+      "model": "halloween:block/candy_bucket_0_9"
+    },
+    "fill=0,motion=10": {
+      "model": "halloween:block/candy_bucket_0_10"
+    },
+    "fill=0,motion=11": {
+      "model": "halloween:block/candy_bucket_0_11"
+    },
+    "fill=0,motion=12": {
+      "model": "halloween:block/candy_bucket_0_12"
+    },
+    "fill=0,motion=13": {
+      "model": "halloween:block/candy_bucket_0_13"
+    },
+    "fill=0,motion=14": {
+      "model": "halloween:block/candy_bucket_0_14"
+    },
+    "fill=0,motion=15": {
+      "model": "halloween:block/candy_bucket_0_15"
+    },
+    "fill=1,motion=0": {
+      "model": "halloween:block/candy_bucket_1_0"
+    },
+    "fill=1,motion=1": {
+      "model": "halloween:block/candy_bucket_1_1"
+    },
+    "fill=1,motion=2": {
+      "model": "halloween:block/candy_bucket_1_2"
+    },
+    "fill=1,motion=3": {
+      "model": "halloween:block/candy_bucket_1_3"
+    },
+    "fill=1,motion=4": {
+      "model": "halloween:block/candy_bucket_1_4"
+    },
+    "fill=1,motion=5": {
+      "model": "halloween:block/candy_bucket_1_5"
+    },
+    "fill=1,motion=6": {
+      "model": "halloween:block/candy_bucket_1_6"
+    },
+    "fill=1,motion=7": {
+      "model": "halloween:block/candy_bucket_1_7"
+    },
+    "fill=1,motion=8": {
+      "model": "halloween:block/candy_bucket_1_8"
+    },
+    "fill=1,motion=9": {
+      "model": "halloween:block/candy_bucket_1_9"
+    },
+    "fill=1,motion=10": {
+      "model": "halloween:block/candy_bucket_1_10"
+    },
+    "fill=1,motion=11": {
+      "model": "halloween:block/candy_bucket_1_11"
+    },
+    "fill=1,motion=12": {
+      "model": "halloween:block/candy_bucket_1_12"
+    },
+    "fill=1,motion=13": {
+      "model": "halloween:block/candy_bucket_1_13"
+    },
+    "fill=1,motion=14": {
+      "model": "halloween:block/candy_bucket_1_14"
+    },
+    "fill=1,motion=15": {
+      "model": "halloween:block/candy_bucket_1_15"
+    },
+    "fill=2,motion=0": {
+      "model": "halloween:block/candy_bucket_2_0"
+    },
+    "fill=2,motion=1": {
+      "model": "halloween:block/candy_bucket_2_1"
+    },
+    "fill=2,motion=2": {
+      "model": "halloween:block/candy_bucket_2_2"
+    },
+    "fill=2,motion=3": {
+      "model": "halloween:block/candy_bucket_2_3"
+    },
+    "fill=2,motion=4": {
+      "model": "halloween:block/candy_bucket_2_4"
+    },
+    "fill=2,motion=5": {
+      "model": "halloween:block/candy_bucket_2_5"
+    },
+    "fill=2,motion=6": {
+      "model": "halloween:block/candy_bucket_2_6"
+    },
+    "fill=2,motion=7": {
+      "model": "halloween:block/candy_bucket_2_7"
+    },
+    "fill=2,motion=8": {
+      "model": "halloween:block/candy_bucket_2_8"
+    },
+    "fill=2,motion=9": {
+      "model": "halloween:block/candy_bucket_2_9"
+    },
+    "fill=2,motion=10": {
+      "model": "halloween:block/candy_bucket_2_10"
+    },
+    "fill=2,motion=11": {
+      "model": "halloween:block/candy_bucket_2_11"
+    },
+    "fill=2,motion=12": {
+      "model": "halloween:block/candy_bucket_2_12"
+    },
+    "fill=2,motion=13": {
+      "model": "halloween:block/candy_bucket_2_13"
+    },
+    "fill=2,motion=14": {
+      "model": "halloween:block/candy_bucket_2_14"
+    },
+    "fill=2,motion=15": {
+      "model": "halloween:block/candy_bucket_2_15"
+    },
+    "fill=3,motion=0": {
+      "model": "halloween:block/candy_bucket_3_0"
+    },
+    "fill=3,motion=1": {
+      "model": "halloween:block/candy_bucket_3_1"
+    },
+    "fill=3,motion=2": {
+      "model": "halloween:block/candy_bucket_3_2"
+    },
+    "fill=3,motion=3": {
+      "model": "halloween:block/candy_bucket_3_3"
+    },
+    "fill=3,motion=4": {
+      "model": "halloween:block/candy_bucket_3_4"
+    },
+    "fill=3,motion=5": {
+      "model": "halloween:block/candy_bucket_3_5"
+    },
+    "fill=3,motion=6": {
+      "model": "halloween:block/candy_bucket_3_6"
+    },
+    "fill=3,motion=7": {
+      "model": "halloween:block/candy_bucket_3_7"
+    },
+    "fill=3,motion=8": {
+      "model": "halloween:block/candy_bucket_3_8"
+    },
+    "fill=3,motion=9": {
+      "model": "halloween:block/candy_bucket_3_9"
+    },
+    "fill=3,motion=10": {
+      "model": "halloween:block/candy_bucket_3_10"
+    },
+    "fill=3,motion=11": {
+      "model": "halloween:block/candy_bucket_3_11"
+    },
+    "fill=3,motion=12": {
+      "model": "halloween:block/candy_bucket_3_12"
+    },
+    "fill=3,motion=13": {
+      "model": "halloween:block/candy_bucket_3_13"
+    },
+    "fill=3,motion=14": {
+      "model": "halloween:block/candy_bucket_3_14"
+    },
+    "fill=3,motion=15": {
+      "model": "halloween:block/candy_bucket_3_15"
+    },
+    "fill=4,motion=0": {
+      "model": "halloween:block/candy_bucket_4_0"
+    },
+    "fill=4,motion=1": {
+      "model": "halloween:block/candy_bucket_4_1"
+    },
+    "fill=4,motion=2": {
+      "model": "halloween:block/candy_bucket_4_2"
+    },
+    "fill=4,motion=3": {
+      "model": "halloween:block/candy_bucket_4_3"
+    },
+    "fill=4,motion=4": {
+      "model": "halloween:block/candy_bucket_4_4"
+    },
+    "fill=4,motion=5": {
+      "model": "halloween:block/candy_bucket_4_5"
+    },
+    "fill=4,motion=6": {
+      "model": "halloween:block/candy_bucket_4_6"
+    },
+    "fill=4,motion=7": {
+      "model": "halloween:block/candy_bucket_4_7"
+    },
+    "fill=4,motion=8": {
+      "model": "halloween:block/candy_bucket_4_8"
+    },
+    "fill=4,motion=9": {
+      "model": "halloween:block/candy_bucket_4_9"
+    },
+    "fill=4,motion=10": {
+      "model": "halloween:block/candy_bucket_4_10"
+    },
+    "fill=4,motion=11": {
+      "model": "halloween:block/candy_bucket_4_11"
+    },
+    "fill=4,motion=12": {
+      "model": "halloween:block/candy_bucket_4_12"
+    },
+    "fill=4,motion=13": {
+      "model": "halloween:block/candy_bucket_4_13"
+    },
+    "fill=4,motion=14": {
+      "model": "halloween:block/candy_bucket_4_14"
+    },
+    "fill=4,motion=15": {
+      "model": "halloween:block/candy_bucket_4_15"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:candle",
+    "minecraft:candle",
+    "minecraft:candle"
+  ],
+  "result": {
+    "id": "halloween:candle_candelabra",
+    "count": 1
+  }
+}

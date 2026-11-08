@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:black_dye",
+    "minecraft:flint"
+  ],
+  "result": {
+    "id": "halloween:gargoyle_statue",
+    "count": 1
+  }
+}

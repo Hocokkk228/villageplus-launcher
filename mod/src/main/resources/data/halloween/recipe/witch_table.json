@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:dark_oak_planks",
+    "minecraft:orange_dye",
+    "minecraft:purple_dye",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "halloween:witch_table",
+    "count": 1
+  }
+}

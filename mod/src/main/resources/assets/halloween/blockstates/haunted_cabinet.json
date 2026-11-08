@@ -1,0 +1,484 @@
+{
+  "variants": {
+    "facing=north,part=0,door=0": {
+      "model": "halloween:block/haunted_cabinet_part0_door0",
+      "y": 0
+    },
+    "facing=east,part=0,door=0": {
+      "model": "halloween:block/haunted_cabinet_part0_door0",
+      "y": 90
+    },
+    "facing=south,part=0,door=0": {
+      "model": "halloween:block/haunted_cabinet_part0_door0",
+      "y": 180
+    },
+    "facing=west,part=0,door=0": {
+      "model": "halloween:block/haunted_cabinet_part0_door0",
+      "y": 270
+    },
+    "facing=north,part=0,door=1": {
+      "model": "halloween:block/haunted_cabinet_part0_door1",
+      "y": 0
+    },
+    "facing=east,part=0,door=1": {
+      "model": "halloween:block/haunted_cabinet_part0_door1",
+      "y": 90
+    },
+    "facing=south,part=0,door=1": {
+      "model": "halloween:block/haunted_cabinet_part0_door1",
+      "y": 180
+    },
+    "facing=west,part=0,door=1": {
+      "model": "halloween:block/haunted_cabinet_part0_door1",
+      "y": 270
+    },
+    "facing=north,part=0,door=2": {
+      "model": "halloween:block/haunted_cabinet_part0_door2",
+      "y": 0
+    },
+    "facing=east,part=0,door=2": {
+      "model": "halloween:block/haunted_cabinet_part0_door2",
+      "y": 90
+    },
+    "facing=south,part=0,door=2": {
+      "model": "halloween:block/haunted_cabinet_part0_door2",
+      "y": 180
+    },
+    "facing=west,part=0,door=2": {
+      "model": "halloween:block/haunted_cabinet_part0_door2",
+      "y": 270
+    },
+    "facing=north,part=0,door=3": {
+      "model": "halloween:block/haunted_cabinet_part0_door3",
+      "y": 0
+    },
+    "facing=east,part=0,door=3": {
+      "model": "halloween:block/haunted_cabinet_part0_door3",
+      "y": 90
+    },
+    "facing=south,part=0,door=3": {
+      "model": "halloween:block/haunted_cabinet_part0_door3",
+      "y": 180
+    },
+    "facing=west,part=0,door=3": {
+      "model": "halloween:block/haunted_cabinet_part0_door3",
+      "y": 270
+    },
+    "facing=north,part=0,door=4": {
+      "model": "halloween:block/haunted_cabinet_part0_door4",
+      "y": 0
+    },
+    "facing=east,part=0,door=4": {
+      "model": "halloween:block/haunted_cabinet_part0_door4",
+      "y": 90
+    },
+    "facing=south,part=0,door=4": {
+      "model": "halloween:block/haunted_cabinet_part0_door4",
+      "y": 180
+    },
+    "facing=west,part=0,door=4": {
+      "model": "halloween:block/haunted_cabinet_part0_door4",
+      "y": 270
+    },
+    "facing=north,part=1,door=0": {
+      "model": "halloween:block/haunted_cabinet_part1_door0",
+      "y": 0
+    },
+    "facing=east,part=1,door=0": {
+      "model": "halloween:block/haunted_cabinet_part1_door0",
+      "y": 90
+    },
+    "facing=south,part=1,door=0": {
+      "model": "halloween:block/haunted_cabinet_part1_door0",
+      "y": 180
+    },
+    "facing=west,part=1,door=0": {
+      "model": "halloween:block/haunted_cabinet_part1_door0",
+      "y": 270
+    },
+    "facing=north,part=1,door=1": {
+      "model": "halloween:block/haunted_cabinet_part1_door1",
+      "y": 0
+    },
+    "facing=east,part=1,door=1": {
+      "model": "halloween:block/haunted_cabinet_part1_door1",
+      "y": 90
+    },
+    "facing=south,part=1,door=1": {
+      "model": "halloween:block/haunted_cabinet_part1_door1",
+      "y": 180
+    },
+    "facing=west,part=1,door=1": {
+      "model": "halloween:block/haunted_cabinet_part1_door1",
+      "y": 270
+    },
+    "facing=north,part=1,door=2": {
+      "model": "halloween:block/haunted_cabinet_part1_door2",
+      "y": 0
+    },
+    "facing=east,part=1,door=2": {
+      "model": "halloween:block/haunted_cabinet_part1_door2",
+      "y": 90
+    },
+    "facing=south,part=1,door=2": {
+      "model": "halloween:block/haunted_cabinet_part1_door2",
+      "y": 180
+    },
+    "facing=west,part=1,door=2": {
+      "model": "halloween:block/haunted_cabinet_part1_door2",
+      "y": 270
+    },
+    "facing=north,part=1,door=3": {
+      "model": "halloween:block/haunted_cabinet_part1_door3",
+      "y": 0
+    },
+    "facing=east,part=1,door=3": {
+      "model": "halloween:block/haunted_cabinet_part1_door3",
+      "y": 90
+    },
+    "facing=south,part=1,door=3": {
+      "model": "halloween:block/haunted_cabinet_part1_door3",
+      "y": 180
+    },
+    "facing=west,part=1,door=3": {
+      "model": "halloween:block/haunted_cabinet_part1_door3",
+      "y": 270
+    },
+    "facing=north,part=1,door=4": {
+      "model": "halloween:block/haunted_cabinet_part1_door4",
+      "y": 0
+    },
+    "facing=east,part=1,door=4": {
+      "model": "halloween:block/haunted_cabinet_part1_door4",
+      "y": 90
+    },
+    "facing=south,part=1,door=4": {
+      "model": "halloween:block/haunted_cabinet_part1_door4",
+      "y": 180
+    },
+    "facing=west,part=1,door=4": {
+      "model": "halloween:block/haunted_cabinet_part1_door4",
+      "y": 270
+    },
+    "facing=north,part=2,door=0": {
+      "model": "halloween:block/haunted_cabinet_part2_door0",
+      "y": 0
+    },
+    "facing=east,part=2,door=0": {
+      "model": "halloween:block/haunted_cabinet_part2_door0",
+      "y": 90
+    },
+    "facing=south,part=2,door=0": {
+      "model": "halloween:block/haunted_cabinet_part2_door0",
+      "y": 180
+    },
+    "facing=west,part=2,door=0": {
+      "model": "halloween:block/haunted_cabinet_part2_door0",
+      "y": 270
+    },
+    "facing=north,part=2,door=1": {
+      "model": "halloween:block/haunted_cabinet_part2_door1",
+      "y": 0
+    },
+    "facing=east,part=2,door=1": {
+      "model": "halloween:block/haunted_cabinet_part2_door1",
+      "y": 90
+    },
+    "facing=south,part=2,door=1": {
+      "model": "halloween:block/haunted_cabinet_part2_door1",
+      "y": 180
+    },
+    "facing=west,part=2,door=1": {
+      "model": "halloween:block/haunted_cabinet_part2_door1",
+      "y": 270
+    },
+    "facing=north,part=2,door=2": {
+      "model": "halloween:block/haunted_cabinet_part2_door2",
+      "y": 0
+    },
+    "facing=east,part=2,door=2": {
+      "model": "halloween:block/haunted_cabinet_part2_door2",
+      "y": 90
+    },
+    "facing=south,part=2,door=2": {
+      "model": "halloween:block/haunted_cabinet_part2_door2",
+      "y": 180
+    },
+    "facing=west,part=2,door=2": {
+      "model": "halloween:block/haunted_cabinet_part2_door2",
+      "y": 270
+    },
+    "facing=north,part=2,door=3": {
+      "model": "halloween:block/haunted_cabinet_part2_door3",
+      "y": 0
+    },
+    "facing=east,part=2,door=3": {
+      "model": "halloween:block/haunted_cabinet_part2_door3",
+      "y": 90
+    },
+    "facing=south,part=2,door=3": {
+      "model": "halloween:block/haunted_cabinet_part2_door3",
+      "y": 180
+    },
+    "facing=west,part=2,door=3": {
+      "model": "halloween:block/haunted_cabinet_part2_door3",
+      "y": 270
+    },
+    "facing=north,part=2,door=4": {
+      "model": "halloween:block/haunted_cabinet_part2_door4",
+      "y": 0
+    },
+    "facing=east,part=2,door=4": {
+      "model": "halloween:block/haunted_cabinet_part2_door4",
+      "y": 90
+    },
+    "facing=south,part=2,door=4": {
+      "model": "halloween:block/haunted_cabinet_part2_door4",
+      "y": 180
+    },
+    "facing=west,part=2,door=4": {
+      "model": "halloween:block/haunted_cabinet_part2_door4",
+      "y": 270
+    },
+    "facing=north,part=3,door=0": {
+      "model": "halloween:block/haunted_cabinet_part3_door0",
+      "y": 0
+    },
+    "facing=east,part=3,door=0": {
+      "model": "halloween:block/haunted_cabinet_part3_door0",
+      "y": 90
+    },
+    "facing=south,part=3,door=0": {
+      "model": "halloween:block/haunted_cabinet_part3_door0",
+      "y": 180
+    },
+    "facing=west,part=3,door=0": {
+      "model": "halloween:block/haunted_cabinet_part3_door0",
+      "y": 270
+    },
+    "facing=north,part=3,door=1": {
+      "model": "halloween:block/haunted_cabinet_part3_door1",
+      "y": 0
+    },
+    "facing=east,part=3,door=1": {
+      "model": "halloween:block/haunted_cabinet_part3_door1",
+      "y": 90
+    },
+    "facing=south,part=3,door=1": {
+      "model": "halloween:block/haunted_cabinet_part3_door1",
+      "y": 180
+    },
+    "facing=west,part=3,door=1": {
+      "model": "halloween:block/haunted_cabinet_part3_door1",
+      "y": 270
+    },
+    "facing=north,part=3,door=2": {
+      "model": "halloween:block/haunted_cabinet_part3_door2",
+      "y": 0
+    },
+    "facing=east,part=3,door=2": {
+      "model": "halloween:block/haunted_cabinet_part3_door2",
+      "y": 90
+    },
+    "facing=south,part=3,door=2": {
+      "model": "halloween:block/haunted_cabinet_part3_door2",
+      "y": 180
+    },
+    "facing=west,part=3,door=2": {
+      "model": "halloween:block/haunted_cabinet_part3_door2",
+      "y": 270
+    },
+    "facing=north,part=3,door=3": {
+      "model": "halloween:block/haunted_cabinet_part3_door3",
+      "y": 0
+    },
+    "facing=east,part=3,door=3": {
+      "model": "halloween:block/haunted_cabinet_part3_door3",
+      "y": 90
+    },
+    "facing=south,part=3,door=3": {
+      "model": "halloween:block/haunted_cabinet_part3_door3",
+      "y": 180
+    },
+    "facing=west,part=3,door=3": {
+      "model": "halloween:block/haunted_cabinet_part3_door3",
+      "y": 270
+    },
+    "facing=north,part=3,door=4": {
+      "model": "halloween:block/haunted_cabinet_part3_door4",
+      "y": 0
+    },
+    "facing=east,part=3,door=4": {
+      "model": "halloween:block/haunted_cabinet_part3_door4",
+      "y": 90
+    },
+    "facing=south,part=3,door=4": {
+      "model": "halloween:block/haunted_cabinet_part3_door4",
+      "y": 180
+    },
+    "facing=west,part=3,door=4": {
+      "model": "halloween:block/haunted_cabinet_part3_door4",
+      "y": 270
+    },
+    "facing=north,part=4,door=0": {
+      "model": "halloween:block/haunted_cabinet_part4_door0",
+      "y": 0
+    },
+    "facing=east,part=4,door=0": {
+      "model": "halloween:block/haunted_cabinet_part4_door0",
+      "y": 90
+    },
+    "facing=south,part=4,door=0": {
+      "model": "halloween:block/haunted_cabinet_part4_door0",
+      "y": 180
+    },
+    "facing=west,part=4,door=0": {
+      "model": "halloween:block/haunted_cabinet_part4_door0",
+      "y": 270
+    },
+    "facing=north,part=4,door=1": {
+      "model": "halloween:block/haunted_cabinet_part4_door1",
+      "y": 0
+    },
+    "facing=east,part=4,door=1": {
+      "model": "halloween:block/haunted_cabinet_part4_door1",
+      "y": 90
+    },
+    "facing=south,part=4,door=1": {
+      "model": "halloween:block/haunted_cabinet_part4_door1",
+      "y": 180
+    },
+    "facing=west,part=4,door=1": {
+      "model": "halloween:block/haunted_cabinet_part4_door1",
+      "y": 270
+    },
+    "facing=north,part=4,door=2": {
+      "model": "halloween:block/haunted_cabinet_part4_door2",
+      "y": 0
+    },
+    "facing=east,part=4,door=2": {
+      "model": "halloween:block/haunted_cabinet_part4_door2",
+      "y": 90
+    },
+    "facing=south,part=4,door=2": {
+      "model": "halloween:block/haunted_cabinet_part4_door2",
+      "y": 180
+    },
+    "facing=west,part=4,door=2": {
+      "model": "halloween:block/haunted_cabinet_part4_door2",
+      "y": 270
+    },
+    "facing=north,part=4,door=3": {
+      "model": "halloween:block/haunted_cabinet_part4_door3",
+      "y": 0
+    },
+    "facing=east,part=4,door=3": {
+      "model": "halloween:block/haunted_cabinet_part4_door3",
+      "y": 90
+    },
+    "facing=south,part=4,door=3": {
+      "model": "halloween:block/haunted_cabinet_part4_door3",
+      "y": 180
+    },
+    "facing=west,part=4,door=3": {
+      "model": "halloween:block/haunted_cabinet_part4_door3",
+      "y": 270
+    },
+    "facing=north,part=4,door=4": {
+      "model": "halloween:block/haunted_cabinet_part4_door4",
+      "y": 0
+    },
+    "facing=east,part=4,door=4": {
+      "model": "halloween:block/haunted_cabinet_part4_door4",
+      "y": 90
+    },
+    "facing=south,part=4,door=4": {
+      "model": "halloween:block/haunted_cabinet_part4_door4",
+      "y": 180
+    },
+    "facing=west,part=4,door=4": {
+      "model": "halloween:block/haunted_cabinet_part4_door4",
+      "y": 270
+    },
+    "facing=north,part=5,door=0": {
+      "model": "halloween:block/haunted_cabinet_part5_door0",
+      "y": 0
+    },
+    "facing=east,part=5,door=0": {
+      "model": "halloween:block/haunted_cabinet_part5_door0",
+      "y": 90
+    },
+    "facing=south,part=5,door=0": {
+      "model": "halloween:block/haunted_cabinet_part5_door0",
+      "y": 180
+    },
+    "facing=west,part=5,door=0": {
+      "model": "halloween:block/haunted_cabinet_part5_door0",
+      "y": 270
+    },
+    "facing=north,part=5,door=1": {
+      "model": "halloween:block/haunted_cabinet_part5_door1",
+      "y": 0
+    },
+    "facing=east,part=5,door=1": {
+      "model": "halloween:block/haunted_cabinet_part5_door1",
+      "y": 90
+    },
+    "facing=south,part=5,door=1": {
+      "model": "halloween:block/haunted_cabinet_part5_door1",
+      "y": 180
+    },
+    "facing=west,part=5,door=1": {
+      "model": "halloween:block/haunted_cabinet_part5_door1",
+      "y": 270
+    },
+    "facing=north,part=5,door=2": {
+      "model": "halloween:block/haunted_cabinet_part5_door2",
+      "y": 0
+    },
+    "facing=east,part=5,door=2": {
+      "model": "halloween:block/haunted_cabinet_part5_door2",
+      "y": 90
+    },
+    "facing=south,part=5,door=2": {
+      "model": "halloween:block/haunted_cabinet_part5_door2",
+      "y": 180
+    },
+    "facing=west,part=5,door=2": {
+      "model": "halloween:block/haunted_cabinet_part5_door2",
+      "y": 270
+    },
+    "facing=north,part=5,door=3": {
+      "model": "halloween:block/haunted_cabinet_part5_door3",
+      "y": 0
+    },
+    "facing=east,part=5,door=3": {
+      "model": "halloween:block/haunted_cabinet_part5_door3",
+      "y": 90
+    },
+    "facing=south,part=5,door=3": {
+      "model": "halloween:block/haunted_cabinet_part5_door3",
+      "y": 180
+    },
+    "facing=west,part=5,door=3": {
+      "model": "halloween:block/haunted_cabinet_part5_door3",
+      "y": 270
+    },
+    "facing=north,part=5,door=4": {
+      "model": "halloween:block/haunted_cabinet_part5_door4",
+      "y": 0
+    },
+    "facing=east,part=5,door=4": {
+      "model": "halloween:block/haunted_cabinet_part5_door4",
+      "y": 90
+    },
+    "facing=south,part=5,door=4": {
+      "model": "halloween:block/haunted_cabinet_part5_door4",
+      "y": 180
+    },
+    "facing=west,part=5,door=4": {
+      "model": "halloween:block/haunted_cabinet_part5_door4",
+      "y": 270
+    }
+  }
+}

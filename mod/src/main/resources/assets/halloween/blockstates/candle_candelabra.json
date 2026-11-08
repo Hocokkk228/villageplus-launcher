@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "halloween:block/candle_candelabra_unlit"
+    },
+    "lit=true": {
+      "model": "halloween:block/candle_candelabra_lit"
+    }
+  }
+}

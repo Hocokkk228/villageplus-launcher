@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_nugget",
+    "minecraft:gunpowder",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "halloween:musket_cartridge",
+    "count": 4
+  }
+}

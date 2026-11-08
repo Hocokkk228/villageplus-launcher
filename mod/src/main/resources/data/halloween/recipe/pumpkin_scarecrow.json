@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:hay_block",
+    "minecraft:stick",
+    "minecraft:carved_pumpkin",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "halloween:pumpkin_scarecrow",
+    "count": 1
+  }
+}

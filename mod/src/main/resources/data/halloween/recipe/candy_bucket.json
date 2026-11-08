@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S S",
+    "O O",
+    " O "
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "O": "minecraft:orange_terracotta"
+  },
+  "result": {
+    "id": "halloween:candy_bucket",
+    "count": 1
+  }
+}

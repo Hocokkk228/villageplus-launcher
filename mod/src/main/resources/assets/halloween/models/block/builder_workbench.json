@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "halloween:block/builder_workbench_side",
+    "down": "minecraft:block/oak_planks",
+    "up": "halloween:block/builder_workbench_top",
+    "north": "halloween:block/builder_workbench_front",
+    "south": "halloween:block/builder_workbench_front",
+    "west": "halloween:block/builder_workbench_side",
+    "east": "halloween:block/builder_workbench_side"
+  }
+}

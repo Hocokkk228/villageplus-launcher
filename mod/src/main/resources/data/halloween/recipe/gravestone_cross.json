@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:iron_nugget"
+  ],
+  "result": {
+    "id": "halloween:gravestone_cross",
+    "count": 1
+  }
+}

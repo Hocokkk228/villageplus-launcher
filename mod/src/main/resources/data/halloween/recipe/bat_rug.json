@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:purple_wool",
+    "minecraft:black_dye",
+    "minecraft:flint"
+  ],
+  "result": {
+    "id": "halloween:bat_rug",
+    "count": 1
+  }
+}

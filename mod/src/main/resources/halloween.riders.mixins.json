@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "dev.halloween.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GuardRiderStateMixin",
+    "GuardRiderRendererMixin",
+    "GuardRiderModelMixin",
+    "GuardRiderItemMixin",
+    "VillagerArmorStateMixin",
+    "VillagerArmorRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

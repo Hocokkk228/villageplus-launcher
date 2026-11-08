@@ -1,0 +1,506 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "cushion_ghost": "halloween:block/cushion_ghost",
+    "velvet_purple": "halloween:block/velvet_purple",
+    "bucket_brass": "halloween:block/bucket_brass",
+    "haunted_wood": "halloween:block/haunted_wood",
+    "particle": "halloween:block/haunted_wood"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        25,
+        155,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "Cabinet back",
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        15,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5.333333333333333,
+            16,
+            11.428571428571429
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            5.333333333333333,
+            16,
+            11.428571428571429
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.333333333333333,
+            16,
+            11.428571428571429
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Side frame",
+      "from": [
+        14,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5.333333333333333,
+            16,
+            11.428571428571429
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            5.333333333333333,
+            16,
+            11.428571428571429
+          ],
+          "texture": "#haunted_wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            5.333333333333333,
+            16,
+            11.428571428571429
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.333333333333333,
+            16,
+            11.428571428571429
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Interior shelf",
+      "from": [
+        0,
+        1,
+        3.5
+      ],
+      "to": [
+        14,
+        2,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Interior shelf",
+      "from": [
+        0,
+        14,
+        3.5
+      ],
+      "to": [
+        14,
+        15,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#haunted_wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Heavy door",
+      "from": [
+        12.8,
+        0,
+        -12.3
+      ],
+      "to": [
+        14.0,
+        16,
+        1.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            5.073170731707317,
+            16,
+            11.317073170731707
+          ],
+          "texture": "#haunted_wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            5.073170731707317,
+            16,
+            11.317073170731707
+          ],
+          "texture": "#haunted_wood"
+        },
+        "north": {
+          "uv": [
+            0,
+            5.073170731707317,
+            16,
+            11.317073170731707
+          ],
+          "texture": "#haunted_wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            5.073170731707317,
+            16,
+            11.317073170731707
+          ],
+          "texture": "#haunted_wood"
+        }
+      }
+    },
+    {
+      "name": "Inset panel",
+      "from": [
+        14.01,
+        0,
+        -11.3
+      ],
+      "to": [
+        14.25,
+        16,
+        0.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            4.756756756756757,
+            16,
+            11.675675675675675
+          ],
+          "texture": "#velvet_purple"
+        },
+        "west": {
+          "uv": [
+            0,
+            4.756756756756757,
+            16,
+            11.675675675675675
+          ],
+          "texture": "#velvet_purple"
+        },
+        "north": {
+          "uv": [
+            0,
+            4.756756756756757,
+            16,
+            11.675675675675675
+          ],
+          "texture": "#velvet_purple"
+        },
+        "south": {
+          "uv": [
+            0,
+            4.756756756756757,
+            16,
+            11.675675675675675
+          ],
+          "texture": "#velvet_purple"
+        }
+      }
+    },
+    {
+      "name": "Ghost door carving",
+      "from": [
+        14.26,
+        12,
+        -9.3
+      ],
+      "to": [
+        14.5,
+        16,
+        -1.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            8.88888888888889,
+            16,
+            16.0
+          ],
+          "texture": "#cushion_ghost"
+        },
+        "west": {
+          "uv": [
+            0,
+            8.88888888888889,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_purple"
+        },
+        "north": {
+          "uv": [
+            0,
+            8.88888888888889,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_purple"
+        },
+        "south": {
+          "uv": [
+            0,
+            8.88888888888889,
+            16,
+            16.0
+          ],
+          "texture": "#velvet_purple"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#velvet_purple"
+        }
+      }
+    },
+    {
+      "name": "Brass door pull",
+      "from": [
+        14.25,
+        3,
+        -11.2
+      ],
+      "to": [
+        14.95,
+        8,
+        -10.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#bucket_brass"
+        },
+        "west": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#bucket_brass"
+        },
+        "north": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#bucket_brass"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            16,
+            16.0
+          ],
+          "texture": "#bucket_brass"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bucket_brass"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bucket_brass"
+        }
+      }
+    }
+  ]
+}

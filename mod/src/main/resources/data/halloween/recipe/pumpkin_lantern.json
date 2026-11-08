@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:pumpkin",
+    "minecraft:torch"
+  ],
+  "result": {
+    "id": "halloween:pumpkin_lantern",
+    "count": 1
+  }
+}
