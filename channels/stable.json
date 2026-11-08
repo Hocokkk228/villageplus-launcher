@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "0.50.20",
+  "version": "0.51.4",
   "minecraft": "1.21.11",
   "files": [
     {
@@ -16,10 +16,10 @@
       "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.50.10/fabric-api-0.141.6+1.21.11.jar"
     },
     {
-      "name": "halloween-furniture-0.50.20.jar",
-      "size": 7319486,
-      "sha256": "8bc7147b3104370dc5cb9c79194c091dcd7a068c47215ae8f47cab4ce1fceb63",
-      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/untagged-153094770846b8431ece/halloween-furniture-0.50.20.jar"
+      "name": "halloween-furniture-0.51.4.jar",
+      "size": 7419820,
+      "sha256": "f8bdfc4577dd3301b7fce9e54815b32f2b27299c7e3f9dc67aa775590831ad5d",
+      "url": "https://github.com/Hocokkk228/villageplus-launcher/releases/download/v0.51.4/halloween-furniture-0.51.4.jar"
     },
     {
       "name": "iris-fabric-1.10.7+mc1.21.11.jar",
